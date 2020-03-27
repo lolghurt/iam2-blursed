@@ -1,7 +1,7 @@
 #!/bin/sh
-https://github.com/lolghurt/ill-advised-1-bigger-mags/blob/master/.circleci/zipMod.sh
+https://github.com/lolghurt/iam2-blursed/blob/master/.circleci/zipMod.sh
 # CHANGE ME
-modFolderName="Ill-Advised-Modifications-2-Ship-Weapon-Pack"
+modFolderName="IAM-Part-2-Blursed-Content"
 
 version=$(git describe --tags)
 zipName=$modFolderName-$version.zip
