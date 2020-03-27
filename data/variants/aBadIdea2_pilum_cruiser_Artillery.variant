@@ -1,0 +1,50 @@
+{
+  "displayName": "Artillery",
+  "fluxCapacitors": 30,
+  "fluxVents": 1,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_pilum_cruiser",
+  "hullMods": [
+    "missleracks",
+    "unstable_injector",
+    "eccm",
+    "auxiliarythrusters"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_pilum_cruiser_Artillery",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "aBadIdea2_pilum_maximum",
+        "WS0007": "aBadIdea2_pilum_maximum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum",
+        "WS0003": "pilum",
+        "WS0004": "pilum",
+        "WS0005": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "aBadIdea2_pilum_single",
+        "WS0009": "aBadIdea2_pilum_single",
+        "WS0010": "aBadIdea2_pilum_single",
+        "WS0011": "aBadIdea2_pilum_single",
+        "WS0012": "aBadIdea2_pilum_single"
+      }
+    }
+  ],
+  "wings": []
+}

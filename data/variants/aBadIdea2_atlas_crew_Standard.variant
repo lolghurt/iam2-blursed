@@ -1,0 +1,30 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 14,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_atlas_crew",
+  "hullMods": [
+    "auxiliarythrusters"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_atlas_crew_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "lightmg",
+        "WS 002": "lightmg",
+        "WS 003": "lightmg",
+        "WS0001": "lightmg",
+        "WS0002": "lightmg",
+        "WS0003": "lightmg",
+        "WS0004": "lightmg"
+      }
+    }
+  ],
+  "wings": []
+}

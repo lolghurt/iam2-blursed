@@ -1,0 +1,15 @@
+{
+	"aBadIdea2_yeet":{
+		"sounds":[
+			{"file":"sounds/sfx_wpn_missiles/aBadIdea2_yeet.ogg","pitch":1.0,"volume":0.4},
+			{"file":"sounds/sfx_wpn_missiles/aBadIdea2_yeet.ogg","pitch":0.95,"volume":0.4},
+			{"file":"sounds/sfx_wpn_missiles/aBadIdea2_yeet.ogg","pitch":1.05,"volume":0.4},
+			{"file":"sounds/sfx_wpn_missiles/aBadIdea2_yeet.ogg","pitch":0.9,"volume":0.4},
+		],
+
+	},
+}
+
+
+
+

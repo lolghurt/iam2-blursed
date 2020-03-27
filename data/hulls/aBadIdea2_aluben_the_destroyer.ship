@@ -1,0 +1,181 @@
+{
+  "bounds": [
+    59,
+    21.5,
+    5,
+    35,
+    -11.5,
+    52.5,
+    -28.5,
+    26,
+    -64.5,
+    17,
+    -64.5,
+    -17,
+    -28.5,
+    -26,
+    -11.5,
+    -52.5,
+    5,
+    -35,
+    59,
+    -21.5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "builtInWeapons": {
+    "WS0007": "aBadIdea2_aluben_repeater"
+  },
+  "center": [
+    52,
+    65.5
+  ],
+  "collisionRadius": 121,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 35.5,
+      "location": [
+        -63.5,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 35.5,
+      "location": [
+        -63.5,
+        10
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": -180,
+      "contrailSize": 15,
+      "length": 35.5,
+      "location": [
+        -63.5,
+        -10
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    }
+  ],
+  "height": 130,
+  "hullId": "aBadIdea2_aluben_the_destroyer",
+  "hullName": "Aluben-the-destroyer",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    19.5,
+    -0
+  ],
+  "shieldRadius": 98.5,
+  "spriteName": "graphics/ships/aluben/aBadIdea2_Aluben.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 180,
+      "arc": 180,
+      "id": "WS 003",
+      "locations": [
+        -45.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        -6.5,
+        38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 180,
+      "id": "WS0002",
+      "locations": [
+        -6.5,
+        -38
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 210,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [
+        -44.5,
+        -22
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -210,
+      "arc": 30,
+      "id": "WS0004",
+      "locations": [
+        -44.5,
+        22
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -55.5,
+      "arc": 30,
+      "id": "WS0005",
+      "locations": [
+        22.5,
+        -35
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 55.5,
+      "arc": 30,
+      "id": "WS0006",
+      "locations": [
+        22.5,
+        35
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        37.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 104
+}

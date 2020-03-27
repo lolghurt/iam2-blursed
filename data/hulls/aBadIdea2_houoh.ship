@@ -1,0 +1,92 @@
+{
+  "bounds": [
+    32.5,
+    22.5,
+    -25.5,
+    32.5,
+    -25.5,
+    -32.5,
+    32.5,
+    -22.5
+  ],
+  "center": [
+    49.5,
+    30
+  ],
+  "collisionRadius": 60,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -29,
+        27.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -29,
+        -27.5
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    }
+  ],
+  "height": 72,
+  "hullId": "aBadIdea2_houoh",
+  "hullName": "Houoh",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 59,
+  "spriteName": "graphics/ships/aBadIdea2_houoh.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 161,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        -7,
+        9.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -161,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        -7,
+        -9.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        27.5,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 102
+}

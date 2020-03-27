@@ -1,0 +1,100 @@
+{
+  "bounds": [
+    33,
+    23,
+    13.5,
+    21,
+    12,
+    33,
+    -26,
+    36.5,
+    -26,
+    -36.5,
+    12,
+    -33,
+    13.5,
+    -21,
+    33,
+    -23
+  ],
+  "center": [
+    48,
+    31
+  ],
+  "collisionRadius": 57,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -30,
+        31
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -30,
+        -31
+      ],
+      "style": "LOW_TECH",
+      "width": 10
+    }
+  ],
+  "height": 72,
+  "hullId": "aBadIdea2_dnund",
+  "hullName": "Dnund",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 55.5,
+  "spriteName": "graphics/ships/aBadIdea2_dnund.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -180,
+      "arc": 125,
+      "id": "WS0002",
+      "locations": [
+        -8,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0003",
+      "locations": [
+        27,
+        15
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -0,
+      "arc": 10,
+      "id": "WS0004",
+      "locations": [
+        27,
+        -15
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 102
+}

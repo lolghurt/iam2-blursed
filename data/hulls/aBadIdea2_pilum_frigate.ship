@@ -1,0 +1,111 @@
+{
+  "bounds": [
+    45,
+    -15,
+    15,
+    -15,
+    12,
+    -24,
+    -24,
+    -14,
+    -24,
+    14,
+    12,
+    24,
+    15,
+    15,
+    45,
+    15
+  ],
+  "center": [
+    30,
+    24
+  ],
+  "collisionRadius": 51,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -24,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -24,
+        -10
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -24,
+        10
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 80,
+  "hullId": "aBadIdea2_pilum_frigate",
+  "hullName": "Pilum",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 50.5,
+  "spriteName": "graphics/ships/aBadIdea2_pilum_frigate.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -6,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        11,
+        19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        11,
+        -19
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 60
+}

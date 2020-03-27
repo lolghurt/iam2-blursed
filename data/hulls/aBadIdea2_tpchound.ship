@@ -1,0 +1,98 @@
+{
+  "bounds": [
+    -22,
+    -27,
+    42,
+    -14,
+    42,
+    14,
+    -22,
+    27
+  ],
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "builtInWeapons": {
+    "WS0001": "tpc"
+  },
+  "center": [
+    31,
+    27
+  ],
+  "collisionRadius": 73,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 80,
+      "location": [
+        -25,
+        22
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 80,
+      "location": [
+        -25,
+        -22
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    }
+  ],
+  "height": 81,
+  "hullId": "aBadIdea2_tpchound",
+  "hullName": "Hound (TPC)",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    8,
+    0
+  ],
+  "shieldRadius": 64,
+  "spriteName": "graphics/ships/aBadIdea2_tpchound.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 145,
+      "arc": 290,
+      "id": "WS 002",
+      "locations": [
+        -4,
+        3
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 90,
+      "id": "WS 003",
+      "locations": [
+        -19,
+        -1
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS0001",
+      "locations": [
+        31,
+        3
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 64
+}

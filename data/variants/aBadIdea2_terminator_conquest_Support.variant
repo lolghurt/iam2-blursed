@@ -1,0 +1,29 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_terminator_conquest",
+  "hullMods": [
+    "advancedcore",
+    "dedicated_targeting_core",
+    "no_weapon_flux",
+    "supercomputer",
+    "terminator_core",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_terminator_conquest_Support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

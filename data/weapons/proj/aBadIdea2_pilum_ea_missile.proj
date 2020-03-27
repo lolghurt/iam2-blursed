@@ -1,0 +1,28 @@
+{
+	"id":"aBadIdea2_pilum_ea_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/aBadIdea2_mega_LRM.png",
+	"size":[96,448],	
+	"center":[48,224],
+	"collisionRadius":224,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":1000, # purely visual
+	"onHitEffect":"data.scripts.weapons.onHit.aBadIdea2_yeeet_onHit",
+	"engineSpec":{
+				  #"turnAcc":150,
+				  #"turnRate":70,
+				  #"acc":200,
+				  #"dec":100},
+				  "turnAcc":50,
+				  "turnRate":20,
+				  "acc":600,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-192, 0],
+				    "style":"MIDLINE",
+				    "width":96.0,
+				    "length":480.0,
+				    "angle":180.0}]
+}

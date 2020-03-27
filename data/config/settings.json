@@ -1,0 +1,11 @@
+{
+    "designTypeColors":{
+            "Andradan":[120,81,185,255],
+    },
+	"graphics":{
+		"characters":{
+			"aBadIdea2_gilgamesh":"graphics/portraits/aBadIdea2_gil.png",
+			"aBadIdea2_phil_bounty":"graphics/portraits/andrada143.jpg",
+		},
+	}
+}

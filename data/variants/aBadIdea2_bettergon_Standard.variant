@@ -1,0 +1,110 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 23,
+  "fluxVents": 24,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_bettergon",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_bettergon_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0051": "plasma",
+        "WS0052": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "plasma",
+        "WS0008": "plasma",
+        "WS0023": "plasma",
+        "WS0024": "plasma",
+        "WS0031": "plasma",
+        "WS0032": "plasma",
+        "WS0033": "plasma",
+        "WS0034": "plasma",
+        "WS0035": "plasma",
+        "WS0036": "plasma",
+        "WS0037": "plasma",
+        "WS0038": "plasma",
+        "WS0039": "plasma",
+        "WS0040": "plasma"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "sabot",
+        "WS0006": "sabot",
+        "WS0011": "sabotpod",
+        "WS0012": "sabotpod",
+        "WS0013": "sabotpod",
+        "WS0014": "sabotpod",
+        "WS0015": "sabot",
+        "WS0016": "sabot",
+        "WS0021": "sabot",
+        "WS0022": "sabot",
+        "WS0029": "sabot",
+        "WS0030": "sabot",
+        "WS0041": "sabot",
+        "WS0042": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler",
+        "WS0002": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst",
+        "WS0009": "heavyburst",
+        "WS0010": "heavyburst",
+        "WS0017": "pdlaser",
+        "WS0018": "pdlaser",
+        "WS0019": "pdlaser",
+        "WS0020": "pdlaser",
+        "WS0025": "pdlaser",
+        "WS0026": "pdlaser",
+        "WS0027": "pdlaser",
+        "WS0028": "pdlaser",
+        "WS0043": "pdlaser",
+        "WS0044": "pdlaser",
+        "WS0045": "pdlaser",
+        "WS0046": "pdlaser",
+        "WS0047": "pdlaser",
+        "WS0048": "pdlaser",
+        "WS0049": "pdlaser",
+        "WS0050": "pdlaser",
+        "WS0054": "pdlaser"
+      }
+    }
+  ],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing"
+  ]
+}

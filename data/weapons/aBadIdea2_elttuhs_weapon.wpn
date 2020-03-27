@@ -1,0 +1,65 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "devastator_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/ships/elttuhs/elttuhs_w_r.png",
+  "hardpointOffsets": [
+    25,
+    -19,
+    14,
+    31,
+    25,
+    19,
+    14,
+    -31
+  ],
+  "hardpointSprite": "graphics/ships/elttuhs/elttuhs_w_b.png",
+  "id": "aBadIdea2_elttuhs_weapon",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "particleColor": [
+      255,
+      225,
+      165,
+      175
+    ],
+    "particleCount": 35,
+    "particleDuration": 0.13,
+    "particleSizeMin": 12,
+    "particleSizeRange": 22,
+    "spread": 25
+  },
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "devastator_shot",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "LARGE",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/devastator_turret_recoil.png",
+  "turretOffsets": [
+    30,
+    -9,
+    30,
+    0,
+    30,
+    9
+  ],
+  "turretSprite": "graphics/weapons/devastator_turret_base.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 8
+}

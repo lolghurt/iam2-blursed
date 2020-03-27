@@ -1,0 +1,280 @@
+{
+  "bounds": [
+    176,
+    12.5,
+    160.5,
+    20.5,
+    191.5,
+    45.5,
+    147,
+    68.5,
+    -12.5,
+    67.5,
+    -157,
+    94,
+    -187,
+    86.5,
+    -195,
+    38.5,
+    -167,
+    23,
+    -167,
+    -23,
+    -195,
+    -38.5,
+    -187,
+    -86.5,
+    -157,
+    -94,
+    -12.5,
+    -67.5,
+    147,
+    -68.5,
+    191.5,
+    -45.5,
+    160.5,
+    -20.5,
+    176,
+    -12.5
+  ],
+  "builtInMods": [
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "devastator"
+  },
+  "center": [
+    94,
+    196.5
+  ],
+  "collisionRadius": 226.5,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -178.5,
+        -22
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -178.5,
+        22
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -196.5,
+        -39.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -196.5,
+        39.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -195.5,
+        -50.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -195.5,
+        50.5
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -194.5,
+        -61
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 40,
+      "location": [
+        -194.5,
+        61
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 393,
+  "hullId": "aBadIdea2_hivecon",
+  "hullName": "Hive Conquest",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 226,
+  "spriteName": "graphics/ships/aBadIdea2_hivecon.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0001",
+      "locations": [
+        -125.5,
+        -1
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        24.5,
+        -0,
+        65.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 2",
+      "locations": [
+        123,
+        -0.5,
+        177.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 3",
+      "locations": [
+        1,
+        -46.5,
+        32.5,
+        -43
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 4",
+      "locations": [
+        64,
+        -46.5,
+        98,
+        -46.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 5",
+      "locations": [
+        129.5,
+        -43,
+        161,
+        -46.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 6",
+      "locations": [
+        1,
+        46.5,
+        32.5,
+        43
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 7",
+      "locations": [
+        64,
+        46.5,
+        98,
+        44.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 8",
+      "locations": [
+        129.5,
+        41,
+        161,
+        44.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 188
+}

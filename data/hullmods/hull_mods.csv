@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Speen,aBadIdea2_speen,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.aBadIdea2_speen,"The Spin is a state of rotation defined by its closeness to perfection, that perfection being the Golden Rectangle, more specifically the Golden Spiral that is derived from the Rectangle, a mathematically endless spiral, and a feature said to be omnipresent in the surrounding nature and a fortiori in works of arts.
+
+Unlike the average rotation, the Spin is persistent and produces more rotational energy than it takes to create. That rotational energy is transferred to nearby objects in the form of vibrations and can be wielded for a wide array of purposes.
+
+The Spin is a specialty of the Kingdom of Naples. It is intensively used there either for medicine or for battle. All characters who know the Spin are either Neapolitan or have been taught by a Neapolitan.",He Speen,graphics/hullmods/aBadIdea2_speen.png
+Lower-Caliber Ordnance,aBadIdea2_danmaku,0,,,"req_spaceport, offensive","Weapons, Requires Dock",10000,,,,5,10,15,25,data.hullmods.aBadIdea2_danmaku,"Increases the ship's firerate by %s, global ammunition capacity by %s and reduces the flux consumption by %s, but reduces damage by %s",Increases ordnance quantity over quality,graphics/hullmods/aBadIdea2_danmaku.png

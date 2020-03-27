@@ -1,0 +1,77 @@
+{
+	"baseHullId": "paragon",
+	"skinHullId": "aBadIdea2_paragon_pather",
+	"hullName":"Paragon (LP)",
+	"descriptionId":"paragon",  # optional
+	"baseValueMult":0.8,
+	"spriteName": "graphics/ships/aBadIdea2_paragon_pather.png",
+	"descriptionPrefix":"Fanatics of the Luddic Path have made this ship their own, stripping out all unnecessary furnishing and transforming it into a haphazard vehicle of holy war.",
+	"tags":["LP_bp"],
+	"tech":"Luddic Path",
+	"removeWeaponSlots":[], 		# ids
+	"removeEngineSlots":[], 		# indices, as engine slots have no id in the .ship file
+	"removeBuiltInMods":[], 		# hullmod ids
+	"removeBuiltInWeapons":[], 		# weapon slot ids
+	"builtInMods":["safetyoverrides","ill_advised"],
+	"builtInWeapons":{},
+	"systemId":"ammofeed",
+    "weaponSlotChanges":{
+		"WS 001":{
+            "type": "BALLISTIC"
+		},
+		"WS 002":{
+            "type": "BALLISTIC"
+		},
+		"WS 003":{
+            "type": "BALLISTIC"
+		},
+		"WS 004":{
+            "type": "BALLISTIC"
+		},
+		"WS 005":{
+            "type": "BALLISTIC"
+		},
+		"WS 006":{
+            "type": "BALLISTIC"
+		},
+		"WS 007":{
+            "type": "COMPOSITE"
+		},
+		"WS 008":{
+            "type": "COMPOSITE"
+		},
+		"WS 009":{
+            "type": "BALLISTIC"
+		},
+		"WS 010":{
+            "type": "BALLISTIC"
+		},
+		"WS 011":{
+            "type": "BALLISTIC"
+		},
+		"WS 013":{
+            "type": "BALLISTIC"
+		},
+		"WS 015":{
+            "type": "BALLISTIC"
+		},
+		"WS 016":{
+            "type": "BALLISTIC"
+		},
+		"WS 017":{
+            "type": "BALLISTIC"
+		},
+		"WS 019":{
+            "type": "BALLISTIC"
+		},
+		"WS 021":{
+            "type": "BALLISTIC"
+		},
+		"WS 022":{
+            "type": "BALLISTIC"
+		},
+		"WS 023":{
+            "type": "BALLISTIC"
+		},
+	},
+}

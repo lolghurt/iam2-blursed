@@ -1,0 +1,48 @@
+{
+  "displayName": "Overdriven",
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_daehremmah",
+  "hullMods": [
+    "safetyoverrides",
+    "fluxdistributor"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_daehremmah_Overdriven",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "hammer",
+        "WS0004": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heavymg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

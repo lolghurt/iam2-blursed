@@ -1,0 +1,359 @@
+{
+  "bounds": [
+    85.5,
+    26,
+    49,
+    69,
+    56.5,
+    23.5,
+    16,
+    15,
+    -9,
+    52,
+    -63.5,
+    32.5,
+    -63.5,
+    -32.5,
+    -9,
+    -52,
+    16,
+    -15,
+    56.5,
+    -23.5,
+    49,
+    -69,
+    85.5,
+    -26
+  ],
+  "builtInWeapons": {
+    "WS0003": "mininglaser",
+    "WS0004": "mininglaser",
+    "WS0005": "mininglaser",
+    "WS0006": "mininglaser",
+    "WS0007": "mininglaser",
+    "WS0008": "mininglaser",
+    "WS0009": "mininglaser",
+    "WS0010": "mininglaser",
+    "WS0011": "mininglaser",
+    "WS0012": "mininglaser",
+    "WS0013": "mininglaser",
+    "WS0014": "mininglaser",
+    "WS0015": "mininglaser"
+  },
+  "center": [
+    86,
+    69
+  ],
+  "collisionRadius": 108.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -68,
+        -38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -68,
+        38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 50,
+      "location": [
+        -66,
+        15
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 50,
+      "location": [
+        -66,
+        -15
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 55,
+      "location": [
+        -67,
+        26.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 55,
+      "location": [
+        -67,
+        -26.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    }
+  ],
+  "height": 164,
+  "hullId": "aBadIdea2_bananahammer",
+  "hullName": "Bananahead",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    8,
+    -0
+  ],
+  "shieldRadius": 99,
+  "spriteName": "graphics/ships/aBadIdea2_bananahammer.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -135,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        51,
+        -62
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 135,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        51,
+        62
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 43.5,
+      "arc": 30,
+      "id": "WS0003",
+      "locations": [
+        60.5,
+        54.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -43.5,
+      "arc": 30,
+      "id": "WS0004",
+      "locations": [
+        60.5,
+        -54.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 33,
+      "arc": 30,
+      "id": "WS0005",
+      "locations": [
+        66.5,
+        47.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -33,
+      "arc": 30,
+      "id": "WS0006",
+      "locations": [
+        66.5,
+        -47.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 26.5,
+      "arc": 30,
+      "id": "WS0007",
+      "locations": [
+        71.5,
+        38.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -26.5,
+      "arc": 30,
+      "id": "WS0008",
+      "locations": [
+        71.5,
+        -38.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 23,
+      "arc": 30,
+      "id": "WS0009",
+      "locations": [
+        75.5,
+        29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -23,
+      "arc": 30,
+      "id": "WS0010",
+      "locations": [
+        75.5,
+        -29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 15.5,
+      "arc": 30,
+      "id": "WS0011",
+      "locations": [
+        79,
+        20.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -15.5,
+      "arc": 30,
+      "id": "WS0012",
+      "locations": [
+        79,
+        -20.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 2,
+      "arc": 30,
+      "id": "WS0013",
+      "locations": [
+        80.5,
+        11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -2,
+      "arc": 30,
+      "id": "WS0014",
+      "locations": [
+        80.5,
+        -11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 30,
+      "id": "WS0015",
+      "locations": [
+        81.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 215,
+      "id": "WS0016",
+      "locations": [
+        58,
+        -16
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 45,
+      "arc": 215,
+      "id": "WS0017",
+      "locations": [
+        58,
+        16
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -80,
+      "arc": 215,
+      "id": "WS0018",
+      "locations": [
+        -15,
+        -39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 80,
+      "arc": 215,
+      "id": "WS0019",
+      "locations": [
+        -15,
+        39
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 172
+}

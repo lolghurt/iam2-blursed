@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 50,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_pilum_dreadnought",
+  "hullMods": [
+    "eccm"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_pilum_dreadnought_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "aBadIdea2_pilum_beyond",
+        "WS0002": "aBadIdea2_pilum_beyond",
+        "WS0003": "aBadIdea2_pilum_beyond"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "aBadIdea2_pilum_ea"
+      }
+    }
+  ],
+  "wings": []
+}

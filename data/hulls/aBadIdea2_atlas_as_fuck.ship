@@ -1,0 +1,171 @@
+{
+  "bounds": [
+    70.5,
+    23,
+    52,
+    61,
+    0.5,
+    64.5,
+    -12,
+    90,
+    -29.5,
+    56,
+    -72,
+    56,
+    -86,
+    36,
+    -86,
+    -36,
+    -72,
+    -56,
+    -29.5,
+    -56,
+    -12,
+    -90,
+    0.5,
+    -64.5,
+    52,
+    -61,
+    70.5,
+    -23
+  ],
+  "builtInMods": [
+    "shielded_holds",
+    "civgrade"
+  ],
+  "center": [
+    88,
+    90.5
+  ],
+  "collisionRadius": 110,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 30,
+      "location": [
+        -84.5,
+        43.5
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 30,
+      "location": [
+        -84.5,
+        -43.5
+      ],
+      "style": "LOW_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -87.5,
+        33
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -87.5,
+        -33
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -89.5,
+        -17
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -89.5,
+        17
+      ],
+      "style": "LOW_TECH",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 50.5,
+      "location": [
+        -90.5,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 16
+    }
+  ],
+  "height": 181,
+  "hullId": "aBadIdea2_atlas_as_fuck",
+  "hullName": "Atlas?",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 109.5,
+  "spriteName": "graphics/ships/aBadIdea2_atlas_as_fuck.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS0001",
+      "locations": [
+        51.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 210,
+      "id": "WS0002",
+      "locations": [
+        -13.5,
+        -78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 210,
+      "id": "WS0003",
+      "locations": [
+        -13.5,
+        78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 176
+}

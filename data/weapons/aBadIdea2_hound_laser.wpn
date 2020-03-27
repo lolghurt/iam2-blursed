@@ -1,0 +1,59 @@
+{
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "fireSoundTwo": "ion_beam_loop",
+  "fringeColor": [
+    255,
+    0,
+    0,
+    155
+  ],
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    45,
+    22,
+    45,
+    -22
+  ],
+  "hardpointSprite": "graphics/weapons/aBadIdea2_hound_laser_H_B.png",
+  "hitGlowRadius": 75,
+  "id": "aBadIdea2_hound_laser",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "pixelsPerTexel": 100,
+  "size": "LARGE",
+  "specClass": "beam",
+  "textureScrollSpeed": 600,
+  "textureType": ROUGH2,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    45,
+    22.5,
+    45,
+    -22.5
+  ],
+  "turretSprite": "graphics/weapons/aBadIdea2_hound_laser_T_B.png",
+  "type": "ENERGY",
+  "width": 20
+}

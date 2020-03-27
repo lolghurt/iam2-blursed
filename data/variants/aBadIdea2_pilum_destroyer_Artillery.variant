@@ -1,0 +1,44 @@
+{
+  "displayName": "Artillery",
+  "fluxCapacitors": 18,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_pilum_destroyer",
+  "hullMods": [
+    "missleracks",
+    "unstable_injector",
+    "auxiliarythrusters",
+    "eccm"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_pilum_destroyer_Artillery",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "aBadIdea2_pilum_maximum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "pilum",
+        "WS0003": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "aBadIdea2_pilum_single",
+        "WS0005": "aBadIdea2_pilum_single",
+        "WS0006": "aBadIdea2_pilum_single"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,250 @@
+{
+  "bounds": [
+    259.5,
+    20.5,
+    234,
+    64,
+    8,
+    64,
+    -28.5,
+    87,
+    -45.5,
+    57.5,
+    -98,
+    45,
+    -98,
+    -45,
+    -45.5,
+    -57.5,
+    -28.5,
+    -87,
+    8,
+    -64,
+    234,
+    -64,
+    259.5,
+    -20.5
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "center": [
+    100,
+    108
+  ],
+  "collisionRadius": 330,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -99,
+        45
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -101,
+        34
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -104,
+        18
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 96,
+      "location": [
+        -104,
+        1
+      ],
+      "style": "MIDLINE",
+      "width": 24
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -104,
+        -16
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 48,
+      "location": [
+        -101,
+        -31
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 64,
+      "length": 32,
+      "location": [
+        -99,
+        -43
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 390,
+  "hullId": "aBadIdea2_atlas_crew",
+  "hullName": "Atlas",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    82,
+    -0
+  ],
+  "shieldRadius": 230,
+  "spriteName": "graphics/ships/aBadIdea2_atlas_crew.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 100,
+      "arc": 210,
+      "id": "WS 001",
+      "locations": [
+        -28,
+        78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 260,
+      "arc": 210,
+      "id": "WS 002",
+      "locations": [
+        -28,
+        -78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 210,
+      "id": "WS 003",
+      "locations": [
+        240,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        264,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 140,
+      "arc": 5,
+      "id": "WS 006",
+      "locations": [
+        -89,
+        54
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 220,
+      "arc": 5,
+      "id": "WS 007",
+      "locations": [
+        -89,
+        -54
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS0001",
+      "locations": [
+        100,
+        -53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS0002",
+      "locations": [
+        100,
+        53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS0003",
+      "locations": [
+        164,
+        -52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS0004",
+      "locations": [
+        164,
+        52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 200
+}

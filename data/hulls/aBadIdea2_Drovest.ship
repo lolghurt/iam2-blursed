@@ -1,0 +1,364 @@
+{
+  "bounds": [
+    244,
+    106,
+    -252,
+    95,
+    -252,
+    -95,
+    244,
+    -106,
+    253.5,
+    -25.5,
+    253.5,
+    25.5
+  ],
+  "builtInMods": [
+    "advancedcore"
+  ],
+  "builtInWings": [
+    "aBadIdea2_conquest_wing"
+  ],
+  "center": [
+    108,
+    260
+  ],
+  "collisionRadius": 306,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 55,
+      "location": [
+        -258,
+        -16.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 55,
+      "location": [
+        -258,
+        16.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 65,
+      "location": [
+        -259,
+        -40
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 65,
+      "location": [
+        -259,
+        40
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 50,
+      "location": [
+        -260,
+        -51
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 50,
+      "location": [
+        -260,
+        51
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 45,
+      "location": [
+        -252,
+        -90.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": -180,
+      "contrailSize": 9,
+      "length": 45,
+      "location": [
+        -252,
+        90.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 65,
+      "location": [
+        -251,
+        -79
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 65,
+      "location": [
+        -251,
+        79
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    }
+  ],
+  "height": 520,
+  "hullId": "aBadIdea2_Drovest",
+  "hullName": "Drovest",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 303.5,
+  "spriteName": "graphics/ships/aBadIdea2_Drovest.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        4,
+        -97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 270,
+      "id": "WS0002",
+      "locations": [
+        4,
+        97
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        244,
+        -99
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        244,
+        99
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        250,
+        -52
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        250,
+        52
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        254,
+        -13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        254,
+        13
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -135,
+      "arc": 5,
+      "id": "WS0010",
+      "locations": [
+        -238,
+        -104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 135,
+      "arc": 5,
+      "id": "WS0011",
+      "locations": [
+        -238,
+        104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        -121,
+        -104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0012",
+      "locations": [
+        -121,
+        104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0013",
+      "locations": [
+        -63,
+        -104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0014",
+      "locations": [
+        -63,
+        104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0015",
+      "locations": [
+        -179,
+        -104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0016",
+      "locations": [
+        -179,
+        104
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "LB 1",
+      "locations": [
+        47,
+        -52,
+        129,
+        -52,
+        129,
+        52,
+        47,
+        52
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY"
+    }
+  ],
+  "width": 216
+}

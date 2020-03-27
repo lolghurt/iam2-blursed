@@ -1,0 +1,11 @@
+{
+    "id": "aBadIdea2",
+    "name": "zzz Ill Advised Modifications Section 2: Blursed Content",
+    "author": "Lolghurt ft art from Arthr and whoever the memeships were 'borrowed' from.",
+	"utility": "false",
+    "version": "v1.12.1",
+    "description": "Ships more like Shits, balance is fucked. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA\nB\nS\nO\nL\nU\nT\nE\nL\nY\n\nR\nU\nI\nN\nE\nD",
+	"jars":["jars/aBadIdea2_core.jar"],
+	"modPlugin":"data.scripts.aBadIdea2_ModPlugin",
+    "gameVersion": "0.9.1a"
+}

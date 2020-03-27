@@ -1,0 +1,169 @@
+{
+  "bounds": [
+    -57,
+    37,
+    -90,
+    29,
+    -90,
+    -29,
+    7.5,
+    -63,
+    58,
+    -41.5,
+    30.5,
+    53.5,
+    -48.5,
+    60
+  ],
+  "builtInMods": [
+    "civgrade"
+  ],
+  "center": [
+    74,
+    101
+  ],
+  "collisionRadius": 119.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -92,
+        6.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -92,
+        -6.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -92,
+        -15.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -92,
+        15.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    },
+    {
+      "angle": -180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -91,
+        -24.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    },
+    {
+      "angle": 180,
+      "contrailSize": 7,
+      "length": 25,
+      "location": [
+        -91,
+        24.5
+      ],
+      "style": "HIGH_TECH",
+      "width": 7
+    }
+  ],
+  "height": 202,
+  "hullId": "aBadIdea2_buffalo_EVIL",
+  "hullName": "BUFFalo",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 119,
+  "spriteName": "graphics/ships/aBadIdea2_buffalo_EVIL.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 180,
+      "id": "WS0001",
+      "locations": [
+        10.5,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 240,
+      "id": "WS0002",
+      "locations": [
+        37,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 120,
+      "arc": 240,
+      "id": "WS0003",
+      "locations": [
+        -19,
+        22
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        8,
+        43
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        -23,
+        56
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    }
+  ],
+  "width": 150
+}

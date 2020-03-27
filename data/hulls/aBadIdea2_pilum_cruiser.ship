@@ -1,0 +1,223 @@
+{
+  "bounds": [
+    132,
+    -48,
+    30,
+    -48,
+    30,
+    -66,
+    -18,
+    -66,
+    -72,
+    -36,
+    -72,
+    36,
+    -18,
+    66,
+    30,
+    66,
+    30,
+    48,
+    132,
+    48
+  ],
+  "center": [
+    72,
+    72
+  ],
+  "collisionRadius": 164,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 120,
+      "location": [
+        -72,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 24
+    },
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 120,
+      "location": [
+        -72,
+        -30
+      ],
+      "style": "MIDLINE",
+      "width": 24
+    },
+    {
+      "angle": -180,
+      "contrailSize": 24,
+      "length": 120,
+      "location": [
+        -72,
+        30
+      ],
+      "style": "MIDLINE",
+      "width": 24
+    }
+  ],
+  "height": 240,
+  "hullId": "aBadIdea2_pilum_cruiser",
+  "hullName": "Pilum",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 162,
+  "spriteName": "graphics/ships/aBadIdea2_pilum_cruiser.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        132,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        132,
+        30
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        132,
+        -30
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        23,
+        59
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -45,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        23,
+        -59
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -45,
+      "arc": 270,
+      "id": "WS0006",
+      "locations": [
+        -6,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 45,
+      "arc": 270,
+      "id": "WS0007",
+      "locations": [
+        -6,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 225,
+      "id": "WS0008",
+      "locations": [
+        87,
+        -30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 225,
+      "id": "WS0009",
+      "locations": [
+        87,
+        30
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -135,
+      "arc": 225,
+      "id": "WS0010",
+      "locations": [
+        -42,
+        -36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 135,
+      "arc": 225,
+      "id": "WS0011",
+      "locations": [
+        -42,
+        36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 225,
+      "id": "WS0012",
+      "locations": [
+        87,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 144
+}

@@ -1,0 +1,33 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 22,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_hivecon",
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_hivecon_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    }
+  ],
+  "wings": [
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "hoplon_wing",
+    "xyphos_wing",
+    "xyphos_wing",
+    "xyphos_wing",
+    "xyphos_wing"
+  ]
+}

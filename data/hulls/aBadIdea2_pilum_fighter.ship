@@ -1,0 +1,82 @@
+{
+  "bounds": [
+    20.5,
+    -7.5,
+    -13.5,
+    -8.5,
+    -13.5,
+    8.5,
+    20.5,
+    7.5
+  ],
+  "builtInWeapons": {
+    "WS0001": "aBadIdea2_pilum_for_fighters"
+  },
+  "center": [
+    12,
+    14
+  ],
+  "collisionRadius": 27.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 20,
+      "location": [
+        -14,
+        -5
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 20,
+      "location": [
+        -14,
+        5
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 20,
+      "location": [
+        -14,
+        -0
+      ],
+      "style": "LOW_TECH",
+      "width": 4
+    }
+  ],
+  "height": 40,
+  "hullId": "aBadIdea2_pilum_fighter",
+  "hullName": "Pilum",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 27,
+  "spriteName": "graphics/ships/aBadIdea2_pilum_fighter.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -4,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 24
+}

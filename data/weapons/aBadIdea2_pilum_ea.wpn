@@ -1,0 +1,63 @@
+{
+  "animationType": "SMOKE",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "pilum_lrm_fire",
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    320,
+    -80,
+    320,
+    0,
+    320,
+    80
+  ],
+  "hardpointSprite": "graphics/weapons/aBadIdea2_pilum_ea.png",
+  "id": "aBadIdea2_pilum_ea",
+  "noImpactSounds": false,
+  "noNonShieldImpactSounds": false,
+  "noShieldImpactSounds": false,
+  "projectileSpecId": "aBadIdea2_pilum_ea_missile",
+  "renderAboveAllWeapons": 0,
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "size": "LARGE",
+  "smokeSpec": {
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackParticleCount": 3,
+    "blowbackSpread": 10,
+    "cloudDuration": 1,
+    "cloudParticleCount": 3,
+    "cloudRadius": 10,
+    "particleColor": [
+      80,
+      100,
+      150,
+      0
+    ],
+    "particleSizeMin": 20,
+    "particleSizeRange": 20
+  },
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "turretOffsets": [
+    160,
+    -80,
+    160,
+    0,
+    160,
+    80
+  ],
+  "turretSprite": "graphics/weapons/aBadIdea2_pilum_ea.png",
+  "type": "MISSILE"
+}

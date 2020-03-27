@@ -1,0 +1,208 @@
+{
+  "bounds": [
+    -22,
+    -47,
+    -95,
+    -44,
+    -95,
+    44,
+    -37,
+    52,
+    -9,
+    16,
+    38,
+    6,
+    46,
+    -28,
+    80,
+    -47,
+    68,
+    -73,
+    -11,
+    -72.5
+  ],
+  "center": [
+    76,
+    97
+  ],
+  "collisionRadius": 127.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -96,
+        38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 60,
+      "location": [
+        -96,
+        -38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 55,
+      "location": [
+        -95,
+        27
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 55,
+      "location": [
+        -95,
+        -27
+      ],
+      "style": "MIDLINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -94,
+        15
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -94,
+        -15
+      ],
+      "style": "MIDLINE",
+      "width": 14
+    }
+  ],
+  "height": 194,
+  "hullId": "aBadIdea2_hammerhead_curved",
+  "hullName": "Hammerhead (C)",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 127,
+  "spriteName": "graphics/ships/aBadIdea2_hammerhead_curved.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -80,
+      "arc": 215,
+      "id": "WS0001",
+      "locations": [
+        -43,
+        -39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 80,
+      "arc": 215,
+      "id": "WS0002",
+      "locations": [
+        -43,
+        39
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -135,
+      "arc": 215,
+      "id": "WS0003",
+      "locations": [
+        13,
+        -42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -45,
+      "arc": 215,
+      "id": "WS0004",
+      "locations": [
+        45,
+        -42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0005",
+      "locations": [
+        18,
+        -74
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0006",
+      "locations": [
+        40,
+        -74
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0007",
+      "locations": [
+        -2,
+        -69
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        60,
+        -69
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 152
+}

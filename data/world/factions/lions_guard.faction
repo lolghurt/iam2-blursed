@@ -1,0 +1,13 @@
+{
+	"hullFrequency":{
+		"hulls":{
+			"aBadIdea2_long_apogee":0, # civ ships out
+		},
+	},
+	"priorityShips":{
+		"hulls":[
+			"aBadIdea2_hivecon",
+			"aBadIdea2_gust",
+		],
+	},
+},

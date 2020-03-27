@@ -1,0 +1,55 @@
+{
+  "displayName": "Artillery",
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_pilum_capital",
+  "hullMods": [
+    "expanded_deck_crew",
+    "eccm"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_pilum_capital_Artillery",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "aBadIdea2_pilum_maximum",
+        "WS0014": "aBadIdea2_pilum_maximum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "pilum",
+        "WS0002": "pilum",
+        "WS0003": "pilum",
+        "WS0004": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "aBadIdea2_pilum_single",
+        "WS0006": "aBadIdea2_pilum_single",
+        "WS0007": "aBadIdea2_pilum_single",
+        "WS0008": "aBadIdea2_pilum_single",
+        "WS0011": "aBadIdea2_pilum_single",
+        "WS0012": "aBadIdea2_pilum_single"
+      }
+    }
+  ],
+  "wings": [
+    "aBadIdea2_pilum_wing",
+    "aBadIdea2_pilum_wing",
+    "aBadIdea2_pilum_wing",
+    "aBadIdea2_pilum_wing",
+    "aBadIdea2_pilum_wing",
+    "aBadIdea2_pilum_wing"
+  ]
+}

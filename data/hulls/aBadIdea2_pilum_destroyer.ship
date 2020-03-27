@@ -1,0 +1,151 @@
+{
+  "bounds": [
+    88,
+    -32,
+    20,
+    -32,
+    20,
+    -44,
+    -8,
+    -44,
+    -48,
+    -24,
+    -48,
+    24,
+    -8,
+    44,
+    20,
+    44,
+    20,
+    32,
+    88,
+    32
+  ],
+  "center": [
+    52,
+    56
+  ],
+  "collisionRadius": 105,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -48,
+        -0
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": 180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -48,
+        -20
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    },
+    {
+      "angle": -180,
+      "contrailSize": 16,
+      "length": 80,
+      "location": [
+        -48,
+        20
+      ],
+      "style": "MIDLINE",
+      "width": 16
+    }
+  ],
+  "height": 160,
+  "hullId": "aBadIdea2_pilum_destroyer",
+  "hullName": "Pilum",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 104,
+  "spriteName": "graphics/ships/aBadIdea2_pilum_destroyer.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0001",
+      "locations": [
+        -18,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        2,
+        41
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        2,
+        -41
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        90,
+        20
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0005",
+      "locations": [
+        90,
+        -20
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        90,
+        -0
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 104
+}
