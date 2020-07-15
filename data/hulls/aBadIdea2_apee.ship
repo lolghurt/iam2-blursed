@@ -1,0 +1,175 @@
+{
+  "bounds": [
+    100.5,
+    60,
+    7.5,
+    37,
+    -15.5,
+    54,
+    -67,
+    52.5,
+    -67,
+    -52.5,
+    -12,
+    -63,
+    6,
+    -40.5,
+    100.5,
+    -60,
+    135,
+    -5
+  ],
+  "center": [
+    70,
+    76
+  ],
+  "collisionRadius": 172,
+  "engineSlots": [],
+  "height": 223,
+  "hullId": "aBadIdea2_apee",
+  "hullName": "Apee",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    22,
+    -0
+  ],
+  "shieldRadius": 137.5,
+  "spriteName": "graphics/ships/aBadIdea2_apee.png",
+  "style": "HIGH_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 110,
+      "arc": 210,
+      "id": "WS 001",
+      "locations": [
+        -17,
+        43
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 250,
+      "arc": 210,
+      "id": "WS 002",
+      "locations": [
+        -17,
+        -47
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -80,
+      "arc": 130,
+      "id": "WS 003",
+      "locations": [
+        20,
+        -41
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 100,
+      "arc": 160,
+      "id": "WS 004",
+      "locations": [
+        73,
+        52
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 5,
+      "id": "WS 005",
+      "locations": [
+        70.5,
+        -61.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 006",
+      "locations": [
+        128,
+        33
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 007",
+      "locations": [
+        129,
+        -3
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 008",
+      "locations": [
+        130,
+        -25
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 45,
+      "arc": 5,
+      "id": "WS 009",
+      "locations": [
+        40,
+        39.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS 010",
+      "locations": [
+        51,
+        -60
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 45,
+      "arc": 5,
+      "id": "WS 011",
+      "locations": [
+        1,
+        38
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 140
+}
