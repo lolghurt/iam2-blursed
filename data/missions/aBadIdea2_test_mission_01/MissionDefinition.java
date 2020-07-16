@@ -61,6 +61,19 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_super_tempest_Standard", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hegdehog_PD", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "aBadIdea2_hownd_Standard", FleetMemberType.SHIP, false);
 		
 		// Set up the enemy fleet
 		api.addToFleet(FleetSide.ENEMY, "aBadIdea2_aluben_the_destroyer_godlike", FleetMemberType.SHIP, "ISS Black Star", true);

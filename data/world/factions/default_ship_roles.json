@@ -17,9 +17,7 @@
 		"aBadIdea2_hegdehog_PD":10,
 	},
 	#destroyers
-	"combatMedium":{
-		"aBadIdea2_HyperHyperion_Standard":10,
-		
+	"combatMedium":{		
 		"aBadIdea2_hamead_Standard":10,
 		
 		"aBadIdea2_daehremmah_Balanced":3,
@@ -30,9 +28,7 @@
 		"aBadIdea2_pilum_destroyer_Artillery":10,
 	},
 	#cruisers
-	"combatLarge":{
-		"aBadIdea2_super_tempest_Standard":10,
-		
+	"combatLarge":{		
 		"aBadIdea2_long_apogee_Balanced":10,
 		
 		"aBadIdea2_pilum_cruiser_Artillery":10,
