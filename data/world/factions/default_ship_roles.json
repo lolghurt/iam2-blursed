@@ -20,6 +20,8 @@
 	"combatMedium":{
 		"aBadIdea2_HyperHyperion_Standard":10,
 		
+		"aBadIdea2_hamead_Standard":10,
+		
 		"aBadIdea2_daehremmah_Balanced":3,
 		"aBadIdea2_daehremmah_Elite":3,
 		"aBadIdea2_daehremmah_Overdriven":2,
@@ -34,12 +36,22 @@
 		"aBadIdea2_long_apogee_Balanced":10,
 		
 		"aBadIdea2_pilum_cruiser_Artillery":10,
+		
+		"aBadIdea2_Big_Cow_Standard":10,
+		
+		"aBadIdea2_thiccder_Standard":10,
+		
+		"aBadIdea2_rabbit_Standard":10,
+		
+		"aBadIdea2_apee_Standard":10,
 	},
 	#take a guess lmao
 	"combatCapital":{
 		"aBadIdea2_onslaught_lgbt_Standard":4,
 		"aBadIdea2_onslaught_lgbt_Outdated":2,
 		"aBadIdea2_onslaught_lgbt_Elite":4,
+		
+		"aBadIdea2_onslaught_MKII_Standard":10,
 		
 		"aBadIdea2_paragon_pather_Raider":10,
 		
@@ -48,6 +60,12 @@
 		"aBadIdea2_pilum_capital_Artillery":10,
 		
 		"aBadIdea2_pilum_dreadnought_Standard":10,
+		
+		"aBadIdea2_houndslaught_Standard":10,
+		
+		"aBadIdea2_halfagon_Standard":10,
+		
+		"aBadIdea2_halfquest_Standard":10,
 	},
 	
 	"combatFreighterSmall":{
@@ -59,6 +77,13 @@
 		
 		"aBadIdea2_hownd_Standard":10,
 	},
+	"combatFreighterMedium":{
+		"aBadIdea2_greeble_Standard":10,
+	},
+	
+	"civilianRandom":{
+		"aBadIdea2_supernebula_Standard":4,
+	},
 	
 	"carrierSmall":{
 		"aBadIdea2_long_drover_Strike":10,
@@ -69,15 +94,26 @@
 		
 		"aBadIdea2_Drovest_Standard":10,
 	},
+	"phaseCapital":{
+		"aBadIdea2_gremlin_battleship_Standard":10,
+	},
 	
 	"freighterLarge":{
 		"aBadIdea2_long_atlas_Standard":10,
+		
+		"aBadIdea2_buffalo_mk_iii_Standard":10,
 		
 		"aBadIdea2_atlas_crew_Standard":10,
 	},
 	
 	"tankerLarge":{
 		"aBadIdea2_atlas_tanker_Standard":10,
+	},
+	"personnelMedium":{
+		"aBadIdea2_supernebula_Standard":1,
+	},
+	"linerMedium":{
+		"aBadIdea2_supernebula_Standard":10,
 	},
 
 }

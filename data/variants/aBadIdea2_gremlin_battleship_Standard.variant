@@ -1,0 +1,57 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 44,
+  "fluxVents": 50,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_gremlin_battleship",
+  "hullMods": [
+    "missleracks"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_gremlin_battleship_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "hammer",
+        "WS0012": "hammer",
+        "WS0013": "hammer",
+        "WS0014": "hammer",
+        "WS0015": "hammer",
+        "WS0016": "hammer",
+        "WS0017": "hammer",
+        "WS0018": "hammer",
+        "WS0019": "hammer",
+        "WS0020": "hammer",
+        "WS0021": "hammer",
+        "WS0022": "hammer",
+        "WS0023": "hammer",
+        "WS0024": "hammer",
+        "WS0025": "hammer",
+        "WS0026": "hammer",
+        "WS0027": "hammer",
+        "WS0028": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag",
+        "WS0003": "lightag",
+        "WS0004": "lightag",
+        "WS0005": "lightag",
+        "WS0006": "lightag",
+        "WS0007": "lightag",
+        "WS0008": "lightag",
+        "WS0009": "lightag",
+        "WS0010": "lightag"
+      }
+    }
+  ],
+  "wings": []
+}

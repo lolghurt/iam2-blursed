@@ -1,5 +1,242 @@
 {
+  "bounds": [
+    -36.5,
+    -21.5,
+    -142,
+    -51,
+    -52,
+    -91.5,
+    16.5,
+    -82,
+    143,
+    -37,
+    143,
+    37,
+    16.5,
+    82,
+    -52,
+    91.5,
+    -142,
+    51,
+    -36.5,
+    21.5
+  ],
+  "builtInWeapons": {
+    "WS0002": "tpc",
+    "WS0003": "tpc",
+    "WS0015": "lights_hound"
+  },
+  "center": [
+    94.5,
+    146.5
+  ],
+  "collisionRadius": 180.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 71,
+      "length": 162.5,
+      "location": [
+        -25,
+        -0.5
+      ],
+      "style": "LOW_TECH",
+      "width": 71
+    }
+  ],
+  "height": 293,
   "hullId": "aBadIdea2_houndslaught",
   "hullName": "Houndslaught",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 175.5,
   "spriteName": "graphics/ships/aBadIdea2_houndslaught.png",
+  "style": "LOW_TECH",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        124.5,
+        -28.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        124.5,
+        28.5
+      ],
+      "mount": "HIDDEN",
+      "size": "LARGE",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0004",
+      "locations": [
+        6.5,
+        -45.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "WS0005",
+      "locations": [
+        6.5,
+        45.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -60,
+      "arc": 150,
+      "id": "WS0001",
+      "locations": [
+        87.5,
+        -29.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 60,
+      "arc": 150,
+      "id": "WS0006",
+      "locations": [
+        87.5,
+        29.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        18.5,
+        -6.5
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 90,
+      "id": "WS0008",
+      "locations": [
+        -16.5,
+        3.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -120,
+      "arc": 120,
+      "id": "WS0009",
+      "locations": [
+        -73.5,
+        -70.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 120,
+      "arc": 120,
+      "id": "WS0010",
+      "locations": [
+        -73.5,
+        70.5
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -60,
+      "arc": 120,
+      "id": "WS0011",
+      "locations": [
+        43.5,
+        -36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 60,
+      "arc": 120,
+      "id": "WS0012",
+      "locations": [
+        43.5,
+        36
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0013",
+      "locations": [
+        63.5,
+        -32.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "WS0014",
+      "locations": [
+        63.5,
+        32.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0015",
+      "locations": [
+        -3.5,
+        -0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 189
 }

@@ -1,12 +1,13 @@
 {
-	"masterVersionFile":"https://github.com/lolghurt/ill-advised-2-ships-n-stuff/raw/master/aBadIdea2.version",
+	"masterVersionFile":"https://github.com/lolghurt/
+iam2-blursed/raw/master/aBadIdea2.version",
 	"modName":"Ill Advised Modifications 2 Shit and Wanker Pack",
 	"modThreadId":17437,
 	"modVersion":
 	{
-		"major":1,
-		"minor":12,
-		"patch":1
+		"major":2,
+		"minor":0,
+		"patch":0
 	},
 	"starsectorVersion":"0.9.1a"
 }

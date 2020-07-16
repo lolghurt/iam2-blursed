@@ -1,5 +1,304 @@
 {
+  "bounds": [
+    2.5,
+    10.5,
+    174.5,
+    14.5,
+    205,
+    53.5,
+    120,
+    76.5,
+    -37.5,
+    76,
+    -67,
+    66,
+    -126.5,
+    93,
+    -186.5,
+    82.5,
+    -174,
+    4,
+    -145.5,
+    -40.5,
+    -114.5,
+    -67,
+    -88,
+    -47,
+    -35.5,
+    -80,
+    8,
+    -67.5,
+    16,
+    -25.5
+  ],
+  "builtInMods": [
+    "hbi"
+  ],
+  "center": [
+    95,
+    191
+  ],
+  "collisionRadius": 245.5,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 15,
+      "length": 60,
+      "location": [
+        -182,
+        21.5
+      ],
+      "style": "MIDLINE",
+      "width": 15
+    },
+    {
+      "angle": 180,
+      "contrailSize": 13,
+      "length": 65,
+      "location": [
+        -170,
+        -1.5
+      ],
+      "style": "MIDLINE",
+      "width": 13
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 44,
+      "location": [
+        -190,
+        38.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 44,
+      "location": [
+        -189,
+        52.5
+      ],
+      "style": "MIDLINE",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 54,
+      "location": [
+        -188,
+        63.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 9,
+      "length": 63,
+      "location": [
+        -188,
+        72.5
+      ],
+      "style": "MIDLINE",
+      "width": 9
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 32,
+      "location": [
+        -186,
+        81
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    }
+  ],
+  "height": 400,
   "hullId": "aBadIdea2_halfquest",
   "hullName": "Conq",
+  "hullSize": "CAPITAL_SHIP",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 238.5,
   "spriteName": "graphics/ships/aBadIdea2_halfquest.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS 001",
+      "locations": [
+        169,
+        20
+      ],
+      "mount": "HARDPOINT",
+      "size": "LARGE",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 30,
+      "arc": 150,
+      "id": "WS 003",
+      "locations": [
+        186,
+        42
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -30,
+      "arc": 150,
+      "id": "WS 004",
+      "locations": [
+        4,
+        -47.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 170,
+      "id": "WS 005",
+      "locations": [
+        114,
+        71
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 80,
+      "arc": 170,
+      "id": "WS 007",
+      "locations": [
+        -101,
+        78
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 160,
+      "arc": 150,
+      "id": "WS 009",
+      "locations": [
+        -149,
+        53
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS 011",
+      "locations": [
+        99,
+        41.5
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS 012",
+      "locations": [
+        22,
+        42
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS 015",
+      "locations": [
+        57,
+        45
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 120,
+      "id": "WS 016",
+      "locations": [
+        -21,
+        51
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -90,
+      "arc": 120,
+      "id": "WS 018",
+      "locations": [
+        -21,
+        -51
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS 019",
+      "locations": [
+        -58,
+        66
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS 020",
+      "locations": [
+        -58,
+        -66
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 120,
+      "id": "WS 022",
+      "locations": [
+        148,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 190
 }

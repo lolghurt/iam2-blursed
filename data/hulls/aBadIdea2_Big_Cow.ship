@@ -1,5 +1,188 @@
 {
+  "bounds": [
+    75,
+    -33.5,
+    42.5,
+    -52.5,
+    -74,
+    -50.5,
+    -74,
+    50.5,
+    42.5,
+    52.5,
+    75,
+    33.5
+  ],
+  "center": [
+    58,
+    80.5
+  ],
+  "collisionRadius": 115,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 72,
+      "location": [
+        -77.5,
+        -38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 72,
+      "location": [
+        -77.5,
+        38
+      ],
+      "style": "MIDLINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 48,
+      "location": [
+        -78.5,
+        -28
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 48,
+      "location": [
+        -78.5,
+        28
+      ],
+      "style": "MIDLINE",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 80,
+      "location": [
+        -77.5,
+        -19
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 80,
+      "location": [
+        -77.5,
+        19
+      ],
+      "style": "MIDLINE",
+      "width": 4
+    }
+  ],
+  "height": 161,
   "hullId": "aBadIdea2_Big_Cow",
   "hullName": "Big Cow",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 113.5,
   "spriteName": "graphics/ships/aBadIdea2_Big_Cow.png",
+  "style": "MIDLINE",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 65,
+      "arc": 130,
+      "id": "WS0001",
+      "locations": [
+        36.5,
+        31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -65,
+      "arc": 130,
+      "id": "WS0003",
+      "locations": [
+        36.5,
+        -31
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 60,
+      "id": "WS0002",
+      "locations": [
+        34.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 0,
+      "arc": 165,
+      "id": "WS0004",
+      "locations": [
+        61.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 180,
+      "arc": 270,
+      "id": "WS0005",
+      "locations": [
+        -32.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": -100,
+      "arc": 142,
+      "id": "WS0007",
+      "locations": [
+        1.5,
+        -28
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    },
+    {
+      "angle": 100,
+      "arc": 142,
+      "id": "WS0008",
+      "locations": [
+        1.5,
+        28
+      ],
+      "mount": "TURRET",
+      "size": "LARGE",
+      "type": "BALLISTIC"
+    }
+  ],
+  "width": 116
 }

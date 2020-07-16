@@ -1,0 +1,62 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 8,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_rabbit",
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_rabbit_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0006": "heavymg",
+        "WS0007": "heavymg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "sabot",
+        "WS0005": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "irpulse",
+        "WS0004": "irpulse",
+        "WS0008": "pulselaser",
+        "WS0009": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "lightneedler",
+        "WS0013": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0014": "vulcan"
+      }
+    }
+  ],
+  "wings": []
+}

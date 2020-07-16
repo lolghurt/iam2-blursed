@@ -1,0 +1,41 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_hamead",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_hamead_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavyneedler",
+        "WS0002": "heavyneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "harpoon",
+        "WS 004": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "lrpdlaser",
+        "WS 006": "lrpdlaser",
+        "WS 007": "lrpdlaser",
+        "WS 008": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}
