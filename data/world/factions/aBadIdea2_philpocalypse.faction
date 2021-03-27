@@ -120,25 +120,27 @@
 		],
 	},
 	"factionDoctrine":{
-		"warships":2,
-		"carriers":2,
+		"warships":5,
+		"carriers":1,
 		"phaseShips":1,
-		"officerQuality":5,
-		"shipQuality":5,
-		"numShips":5,
+		
+		"officerQuality":1,
+		"shipQuality":3,
+		"numShips":3,
+		
 		"shipSize":4,
-		"aggression":5,
-		"combatFreighterProbability":0, # instead of some portion of the freighters in a fleet
-		"combatFreighterCombatUseFraction":0, # as part of the normal combat lineup
-		"combatFreighterCombatUseFractionWhenPriority":0.25, # as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.25,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
 		"commanderSkillsShuffleProbability":0,
 		"commanderSkills":[
-			"fighter_doctrine",
-			"officer_management",
 			"coordinated_maneuvers",
-			"electronic_warfare",
-			"ship_design",
+			"crew_training",
 		],
 	},
 	"illegalCommodities":[
