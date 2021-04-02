@@ -1,5 +1,8 @@
 id,type,text1,text2,text3,notes
+aBadIdea2_aluben_repeater,WEAPON,"Two huge cannons which fire slow-moving plasma-charged projectiles. Rounds are highly effective versus armor, and obliterate any hull structure left underneath.",,,
 aBadIdea2_hound_laser,WEAPON,"Some desperate (insane?) pirate managed to hack-job a hound blueprint into a laser weapon, the beams coming from the reassembled engines.",,,
+aBadIdea2_elttuhs_weapon,WEAPON,"Essentially a rapid-fire flak cannon, the Devastator was developed by the Domain Armada using generic parts in response to a rebellious world which managed to acquire an extensive set of fighter LPCs.",,,
+aBadIdea2_RATS_repeater,WEAPON,"Three huge cannons which fire slow-moving plasma-charged projectiles. Rounds are highly effective versus armor, and obliterate any hull structure left underneath.",,,
 aBadIdea2_pilum_for_fighters,WEAPON,I'm not sure you can see this description at all,,,
 aBadIdea2_pilum_single,WEAPON,"A large guided missile suited for long-range support by backline combat ships. A combat-rated autoloader system ensures continued usefulness in protracted engagements.
 
@@ -17,6 +20,13 @@ When first launched from orbital dock, they must have surely dwarfed any other s
 A ship designed without shields in mind, built to be able to withstand a heavy barrage of enemy fire and strike back while protecting its crew is much loved by its officers and crew. And strike back it can; the Onslaught's unmatched ballistic potential can devastate entire fleets in minutes, its only drawback a logistical dependency on ammunition. 
 
 The Onslaught-class proudly serves as the backbone of the Hegemony Navy.",,,
+aBadIdea2_paragon_lowtech_phase,SHIP,"Persean attempts to copy the Paragon and improve it have resulted in this abomination. Perhaps the engineers were more concerned with whether or not they could, instead of if they should?
+
+The pinnacle of the Domain's battleship designs, though perhaps less the result of military necessity and more of the ambitions of certain senior strategic staff of the Domain Navy - with considerable backing from the Tri-Tachyon corporation, among other major contractors.
+
+No ship can outlast or outgun the Paragon-class, a true Leviathan of a bygone epoch.
+
+",,,
 aBadIdea2_long_apogee,SHIP,"The Apogee-class vessel is an effective mix of advanced scientific and military technologies, perfect for long-range exploration of hostile space. 
 
 The class features an asymmetric design with a large forward section, usually outfitted with long-range tech scanners. Apogee captains are used to operating alone and tend to be an independent, self-reliant lot. 
@@ -24,17 +34,36 @@ The class features an asymmetric design with a large forward section, usually ou
 The ship can hold its own in one-on-one engagements by smart use of its powerful shield emitter and strong engines. However, its armor rating makes it seem somewhat fragile on paper, and thus it is rarely part of big fleet actions.
 
 The high construction costs typically mean that only affluent tech mining consortiums can afford an Apogee-class vessel that is fully outfitted for an aggressive exploratory role.",,,
+aBadIdea2_atlas_as_fuck,SHIP,"Some anomalous event has caused the cargo containers of this Atlas to disappear from the outside.
+
+The Atlas-class ships are large space-borne cargo platforms with an FTL drive and a few defensive systems. Hundreds of containers can be latched on to the hull and carried with ease by this behemoth. 
+
+Typically used to efficiently resupply entire outposts, the Atlas is ill suited to the small and fast trade runs that are the mainstay of commerce in the sector. Their slow speed and large size always tempt uninvited guests, ranging from curious gawkers come to see the hulking colossus, to scavenging pirates aiming to disable a container's magneto-gravitic fastener, to Pather fanatics bent on destroying it all. Nonetheless, the Hegemony makes wide use of them, especially to offload biomass from farming worlds on a seasonal basis. For this purpose, the Hegemony assembles large Atlas convoys; these are protected by military cruisers that ensure that the lifeline of Hegemony citizens is kept safe.
+
+The captaincy of an Atlas is a rare punishment for the able, an uneven mixture of soul-numbing boredom and abject terror, being the results of normal trade runs and pirate attacks, respectively.",,,
+aBadIdea2_aluben_the_destroyer,SHIP,A sawn-off nebula with two custom-fit hellbores.,,,
+aBadIdea2_gust,SHIP,Someone tried to copy a Gust using sector-standard materials. This is the result.,,,
 aBadIdea2_hivecon,SHIP,"A heavily modified Conquest, with most gunnery systems stripped out and the armor compromised to fit as many figher nanoforges as possible.",,,
+aBadIdea2_buffalo_EVIL,SHIP,"A derived class, based on the Buffalo freighter.
+
+The Sector is violent and unpredictable, and conflicts often flare up over the smallest resource or perceived slight. In such situations military-grade ships are sometimes not available quickly enough. Thus, resourceful engineers turn to hull modifications in order to be able to meet the demand for war materiel.
+
+The base hull of this destroyer is a standard Buffalo-class freighter, however due to the scope of the hull conversion, the BUFFalo is considered a separate class. The result is a fighting ship which can hold its own and fight back hard, especially if properly screened from strikes and heavier hulls. The unorthodox weapons configuration often leads to unique fleet formations, and hull modifications often mean that no two BUFFalos are quite the same.
+
+The tactics employed by a BUFFalo captain will vary as much as his hull configuration, but rarely involve standing toe-to-toe with anything heavier than a frigate due to the lack of a shield generator and energy weapon emplacements. The combat plans usually involve a one hit wonder stratagem that never works on the same enemy twice, which is perfectly fine with the crew of the BUFFalo.",,,
 aBadIdea2_HyperHyperion,SHIP,"A supremely advanced design, fragile but with a superb power generator and the ability to mount more ordnance than any other mainstream frigate. Extremely expensive for its size.
 
 Due to the perfectly modular design of the hull, power couplings and weapon slots, modifications of this ship class are not taxing on in flux shunts, plasma relays or the power core. In short, hull modifications are extremely easy to complete. It is often the case that a Hyper Hyperion-class is finely tuned with a cornucopia of mutually boosting hull modifications that make it even deadlier that a variant that is simply bristling with weapons. Naturally, such special modifications are not for the engineering novice and the uninitiated may just blow their entire fortune on a concept that seems good on paper, but is in fact useless in the battlespace. That is why there are many engineers that shun this modification-heavy approach and opt for a more weapon focused platform.
 
 The end results of either approach usually affirm the apprehensive attitude Sector stellators have toward this ship.",,,
 aBadIdea2_tpchound,SHIP,"An old but durable hull class that lacks a shield generator, this frigate is sometimes used to ferry cargo instead of for combat duty. A lucky or gifted officer could make his fortune given the chance to captain one.",,,
+aBadIdea2_phase_lobster,SHIP,"The Doom-class was only the beginning. This true pinnacle of phasing technology is known to some spacers as 'the Lobster from Hell' or 'Killer Crustacean'. Not many have seen it, but those that have can attest to its true, horrific beauty. The Acanthacaris-class phase cruiser can be considered the next step in Volturn advancement, with its hull being designed as a symbol of the peoples' strength and trust in the Diktat.  Ludd have mercy on our souls.",,,
 aBadIdea2_elttuhs,SHIP,Pew Pew Pew,,,
+aBadIdea2_renilRATS,SHIP,PEW PEW PEW,,,
 aBadIdea2_houoh,SHIP,"An old but durable hull class that lacks a shield generator, this frigate is sometimes used to ferry cargo instead of for combat duty. A lucky or gifted officer could make his fortune given the chance to captain one.",,,
 aBadIdea2_dnund,SHIP,"An old but durable hull class that lacks a shield generator, this frigate is sometimes used to ferry cargo instead of for combat duty. A lucky or gifted officer could make his fortune given the chance to captain one.",,,
 aBadIdea2_daehremmah,SHIP,".seitilibapac citsillab sti sa llew sa elttab ni rewop gniyats sti rof detcepser si daehremmaH eht ,niamoD eht fo ega nedlog eht morf reyortsed enildim A",,,
+aBadIdea2_hammerhead_curved,SHIP,"A midline destroyer from the golden age of the Domain, the Hammerhead is respected for its staying power in battle as well as its ballistic capabilities.",,,
 aBadIdea2_long_atlas,SHIP,"The Atlas-class ships are large space-borne cargo platforms with an FTL drive and a few defensive systems. Hundreds of containers can be latched on to the hull and carried with ease by this behemoth. 
 
 Typically used to efficiently resupply entire outposts, the Atlas is ill suited to the small and fast trade runs that are the mainstay of commerce in the sector. Their slow speed and large size always tempt uninvited guests, ranging from curious gawkers come to see the hulking colossus, to scavenging pirates aiming to disable a container's magneto-gravitic fastener, to Pather fanatics bent on destroying it all. Nonetheless, the Hegemony makes wide use of them, especially to offload biomass from farming worlds on a seasonal basis. For this purpose, the Hegemony assembles large Atlas convoys; these are protected by military cruisers that ensure that the lifeline of Hegemony citizens is kept safe.
@@ -98,6 +127,7 @@ aBadIdea2_long_drover,SHIP,"The Drover is a hull designed by the Cruiser-school-
 
 The contract for design of the Drover was won by Orion Shipyards, the traditional Armada ship-builder, in an effort to recover lost market share from the newer naval producers. The result was the 'flying landing strip' maligned by Domain officers as a command more fitting for a logistics bureaucrat than a fighting ship-captain. Complaints in the lower ranks were used by the old Capital-school faction to send the Drover back to committee, citing insufficient firepower for the ship class to meet standard guidelines (which did not account for the strike potential of new classes of fighters). Set up to take the fall for a massive overspend, the committee simply ordered an enormous number of simple missile hardpoints installed- this met the firepower requirements handily and allowed the Drover programme to proceed with only minor alteration.",,,
 aBadIdea2_midline_odyssey,SHIP,"The asymmetric, spheroid design belies the power of this battlecruiser. The base hull presents a tactical setup that favors energy weapons and mobility. Carrier capabilities further augment its tactical options. ",,,
+aBadIdea2_bananahammer,SHIP,"A midline destroyer from the golden age of the Domain, the Hammerhead is respected for its staying power in battle as well as its ballistic capabilities.",,,
 aBadIdea2_Drovest,SHIP,"A Supercarrier fitted with a specialised forge that can somehow produce low-grade conquest shells with drone systems installed. Unfortunately, corrupted code has rendered almost all the weapon mounts nonfunctional.",,,
 aBadIdea2_atlas_tanker,SHIP,"What
 

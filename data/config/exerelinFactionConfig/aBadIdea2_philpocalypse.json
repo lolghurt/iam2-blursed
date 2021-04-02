@@ -41,9 +41,6 @@
         ["aBadIdea2_pilum_cruiser_Artillery", "aBadIdea2_pilum_destroyer_Artillery", "aBadIdea2_pilum_destroyer_Artillery"],
         ["aBadIdea3_brickcruiser_Standard", "aBadIdea3_hammerhead_Support", "aBadIdea3_hammerhead_Balanced"],
     ],
-    "startShipsCarrierLarge":[
-        ["ii_ardea_sta", "ii_princeps_ass", "ii_invictus_sta"],
-    ],
     "startShipsTradeLarge":[
         ["aBadIdea2_aluben_the_destroyer_godlike", "aBadIdea2_atlas_tanker_Standard", "aBadIdea2_atlas_as_fuck_Standard"],
     ],

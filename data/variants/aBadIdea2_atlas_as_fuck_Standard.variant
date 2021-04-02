@@ -1,0 +1,27 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_atlas_as_fuck",
+  "hullMods": [
+    "augmentedengines",
+    "unstable_injector"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_atlas_as_fuck_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}

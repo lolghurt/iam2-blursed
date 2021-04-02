@@ -1,0 +1,56 @@
+{
+  "displayName": "Balanced",
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_hammerhead_curved",
+  "hullMods": [
+    "blast_doors",
+    "missleracks",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_hammerhead_curved_Balanced",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavymortar",
+        "WS0008": "heavymortar"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "harpoon",
+        "WS0006": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

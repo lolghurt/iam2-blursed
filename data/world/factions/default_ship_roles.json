@@ -6,6 +6,8 @@
 	"combatSmall":{
 		"aBadIdea2_tpchound_Standard":10,
 		
+		"aBadIdea2_elttuhs_standard":10,
+		
 		"aBadIdea2_houoh_Standard":10,
 		
 		"aBadIdea2_dnund_Standard":10,
@@ -15,7 +17,13 @@
 		"aBadIdea2_hegdehog_PD":10,
 	},
 	#destroyers
-	"combatMedium":{		
+	"combatMedium":{
+		"aBadIdea2_aluben_the_destroyer_godlike":10,
+		
+		"aBadIdea2_buffalo_EVIL_variant":10,
+		
+		"aBadIdea2_HyperHyperion_Standard":10,
+		
 		"aBadIdea2_hamead_Standard":10,
 		
 		"aBadIdea2_daehremmah_Balanced":3,
@@ -23,11 +31,26 @@
 		"aBadIdea2_daehremmah_Overdriven":2,
 		"aBadIdea2_daehremmah_Support":2,
 		
+		"aBadIdea2_hammerhead_curved_Balanced":3,
+		"aBadIdea2_hammerhead_curved_Elite":3,
+		"aBadIdea2_hammerhead_curved_Overdriven":2,
+		"aBadIdea2_hammerhead_curved_Support":2,
+		
+		"aBadIdea2_bananahammer_Standard":10,
+		
 		"aBadIdea2_pilum_destroyer_Artillery":10,
+		
+		"aBadIdea2_destlobster_Standard":10,
 	},
 	#cruisers
 	"combatLarge":{		
+		"aBadIdea2_super_tempest_Standard":10,
+		
 		"aBadIdea2_long_apogee_Balanced":10,
+		
+		"aBadIdea2_gust_Standard":10,
+		
+		"aBadIdea2_renilRATS_ratty":10,
 		
 		"aBadIdea2_pilum_cruiser_Artillery":10,
 		
@@ -47,6 +70,9 @@
 		
 		"aBadIdea2_onslaught_MKII_Standard":10,
 		
+		"aBadIdea2_paragon_lowtech_phase_Blaster":5,
+		"aBadIdea2_paragon_lowtech_phase_Precision":5,
+		
 		"aBadIdea2_paragon_pather_Raider":10,
 		
 		"aBadIdea2_midline_odyssey_Balanced":10,
@@ -60,6 +86,10 @@
 		"aBadIdea2_halfagon_Standard":10,
 		
 		"aBadIdea2_halfquest_Standard":10,
+	},
+	#phase cruisers and capitals
+	"phaseLarge":{
+		"aBadIdea2_phase_lobster_Standard":10,
 	},
 	
 	"combatFreighterSmall":{
@@ -76,6 +106,8 @@
 	},
 	
 	"civilianRandom":{
+		"aBadIdea2_buffalo_EVIL_variant":10,
+		
 		"aBadIdea2_supernebula_Standard":4,
 	},
 	
@@ -93,6 +125,8 @@
 	},
 	
 	"freighterLarge":{
+		"aBadIdea2_atlas_as_fuck_Standard":10,
+		
 		"aBadIdea2_long_atlas_Standard":10,
 		
 		"aBadIdea2_buffalo_mk_iii_Standard":10,

@@ -1,4 +1,6 @@
 {
+	"minRefireDelay":0,
+	
     "designTypeColors":{
             "Andradan":[120,81,185,255],
     },

@@ -1,0 +1,38 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 1,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_phase_lobster",
+  "hullMods": [
+    "fluxbreakers",
+    "targetingunit"
+  ],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_phase_lobster_Standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack",
+        "WS0002": "hammerrack",
+        "WS0003": "pulselaser",
+        "WS0004": "pulselaser",
+        "WS0005": "pulselaser",
+        "WS0006": "pulselaser",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0010": "lrpdlaser",
+        "WS0011": "lrpdlaser",
+        "WS0012": "pulselaser",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,4 +1,5 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 aBadIdea2_conquest_wing,aBadIdea2_terminator_conquest_Support,"no_drop, no_sell, high",3,,6,0,BOX,2000,200,150,2,SUPPORT,Emotional Support,20,6000,,,,,,,,,,,,,19
 aBadIdea2_pilum_wing,aBadIdea2_pilum_fighter_Fighter,"fighter4, fighter, mid, rare_bp, meme",2,,10,20,V,4000,2000,2000,2,FIGHTER,Hyper-Mobile Artillery,15,10000,,,,,,,,,,,,,12
+aBadIdea2_super_terminator_wing,aBadIdea2_super_terminator_Standard,"no_drop, no_sell, high",3,,6,0,BOX,0,200,,2,SUPPORT,Oh Dear,20,6000,,,,,,,,,,,,,999
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,

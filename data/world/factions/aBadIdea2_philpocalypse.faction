@@ -124,13 +124,13 @@
 		"carriers":1,
 		"phaseShips":1,
 		
-		"officerQuality":1,
-		"shipQuality":3,
-		"numShips":3,
+		"officerQuality":5,
+		"shipQuality":5,
+		"numShips":5,
 		
 		"shipSize":4,
 		
-		"aggression":3,
+		"aggression":5,
 		
 		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup

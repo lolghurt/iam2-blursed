@@ -1,0 +1,31 @@
+{
+  "displayName": "Godlike",
+  "fluxCapacitors": 5,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "aBadIdea2_aluben_the_destroyer",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "aBadIdea2_aluben_the_destroyer_godlike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "aBadIdea2_aluben_repeater"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightdualmg",
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg"
+      }
+    }
+  ],
+  "wings": []
+}
