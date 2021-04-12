@@ -5,7 +5,6 @@
   "goalVariant": true,
   "hullId": "aBadIdea2_super_terminator",
   "hullMods": [
-    "unstable_injector",
     "aBadIdea2_danmaku",
     "hardenedshieldemitter",
     "hardened_subsystems"

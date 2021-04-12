@@ -15,4 +15,7 @@
 			"aBadIdea2_danmaku",
 		],
 	},
+	"shipNameSources":{
+		"JOJO":1,
+	},
 },

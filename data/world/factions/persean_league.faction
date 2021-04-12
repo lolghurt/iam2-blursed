@@ -5,4 +5,7 @@
 			"aBadIdea2_midline_odyssey",
 		],
 	},
+	"shipNameSources":{
+		"JOJO":1,
+	},
 },
