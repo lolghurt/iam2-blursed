@@ -3,9 +3,12 @@
     "name": "zzz Ill Advised Modifications Section 2: Blursed Content",
     "author": "Lolghurt",
 	"utility": "false",
-    "version": "v2.4.0",
+    "version": "v2.4.1",
     "description": "Ships more like Shits, balance is fucked. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA\nB\nS\nO\nL\nU\nT\nE\nL\nY\n\nR\nU\nI\nN\nE\nD",
 	"jars":["jars/aBadIdea2_core.jar"],
+    "dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+    ],
 	"modPlugin":"data.scripts.aBadIdea2_ModPlugin",
-    "gameVersion": "0.95a-RC12"
+    "gameVersion": "0.95a-RC14"
 }

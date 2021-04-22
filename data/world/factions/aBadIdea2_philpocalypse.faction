@@ -12,7 +12,7 @@
 	"crest":"graphics/factions/aBadIdea2_philpocalypse_crest.png",
 	"shipNamePrefix":"PHIL",
 	"shipNameSources":{
-		"JOJO":1,
+		"PHILLIP":1,
 	},
 	"names":{
 		"phil":1,
