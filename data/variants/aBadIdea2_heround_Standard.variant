@@ -1,0 +1,29 @@
+{
+  "variantId": "aBadIdea2_heround_Standard",
+  "hullId": "aBadIdea2_heround",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "recovery_shuttles",
+    "auxiliarythrusters",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thunder_wing"
+  ]
+}

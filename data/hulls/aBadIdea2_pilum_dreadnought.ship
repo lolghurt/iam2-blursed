@@ -1,133 +1,110 @@
 {
-  "bounds": [
-    352,
-    -128,
-    80,
-    -128,
-    80,
-    -176,
-    -32,
-    -176,
-    -192,
-    -96,
-    -192,
-    96,
-    -32,
-    176,
-    80,
-    176,
-    80,
-    128,
-    352,
-    128
-  ],
+  "hullName": "Pilum",
+  "hullId": "aBadIdea2_pilum_dreadnought",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/aBadIdea2_pilum_dreadnought.png",
+  "style": "MIDLINE",
+  "height": 640,
+  "width": 384,
+  "center": [192, 192],
+  "collisionRadius": 418.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 413.5,
+  "viewOffset": 0,
   "builtInWeapons": {
     "WS0001": "aBadIdea2_pilum_beyond",
     "WS0002": "aBadIdea2_pilum_beyond",
     "WS0003": "aBadIdea2_pilum_beyond",
     "WS0004": "aBadIdea2_pilum_ea"
   },
-  "center": [
-    192,
-    192
-  ],
-  "collisionRadius": 418.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 64,
-      "length": 320,
-      "location": [
-        -192,
-        -0
-      ],
-      "style": "LOW_TECH",
-      "width": 64
-    },
-    {
-      "angle": 180,
-      "contrailSize": 64,
-      "length": 320,
-      "location": [
-        -192,
-        -80
-      ],
-      "style": "LOW_TECH",
-      "width": 64
-    },
-    {
-      "angle": -180,
-      "contrailSize": 64,
-      "length": 320,
-      "location": [
-        -192,
-        80
-      ],
-      "style": "LOW_TECH",
-      "width": 64
-    }
-  ],
-  "height": 640,
-  "hullId": "aBadIdea2_pilum_dreadnought",
-  "hullName": "Pilum",
-  "hullSize": "CAPITAL_SHIP",
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 413.5,
-  "spriteName": "graphics/ships/aBadIdea2_pilum_dreadnought.png",
-  "style": "MIDLINE",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0001",
-      "locations": [
-        328,
-        -80
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [328, -80]
     },
     {
-      "angle": -0,
-      "arc": 0,
       "id": "WS0002",
-      "locations": [
-        328,
-        80
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [328, 80]
     },
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0003",
-      "locations": [
-        328,
-        -0
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [328, -0]
     },
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0004",
-      "locations": [
-        -32,
-        -0
-      ],
-      "mount": "HARDPOINT",
       "size": "LARGE",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-32, -0]
     }
   ],
-  "width": 384
+  "engineSlots": [
+    {
+      "location": [-192, -0],
+      "length": 320,
+      "width": 64,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-192, -80],
+      "length": 320,
+      "width": 64,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-192, 80],
+      "length": 320,
+      "width": 64,
+      "angle": -180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    352, -128,
+    80, -128,
+    80, -176,
+    -64, -176,
+    -64, -160,
+    -80, -160,
+    -80, -144,
+    -160, -144,
+    -160, -128,
+    -176, -128,
+    -176, -112,
+    -192, -112,
+    -192, 112,
+    -176, 112,
+    -176, 128,
+    -160, 128,
+    -160, 144,
+    -80, 144,
+    -80, 160,
+    -64, 160,
+    -64, 176,
+    80, 176,
+    80, 128,
+    352, 128
+  ]
 }

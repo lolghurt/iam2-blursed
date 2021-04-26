@@ -1,0 +1,43 @@
+{
+  "hullName": "H",
+  "hullId": "aBadIdea2_h",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/aBadIdea2_h.png",
+  "style": "LOW_TECH",
+  "height": 56,
+  "width": 36,
+  "center": [17, 34],
+  "collisionRadius": 29.5,
+  "shieldCenter": [-3, -0],
+  "shieldRadius": 26,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [0, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, -0],
+      "length": 480,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    3, -15.5,
+    -28.5, -0,
+    13.5, 7
+  ]
+}

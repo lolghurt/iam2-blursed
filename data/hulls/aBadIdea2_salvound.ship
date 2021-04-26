@@ -1,0 +1,84 @@
+{
+  "hullName": "Salvound",
+  "hullId": "aBadIdea2_salvound",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_salvound.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 42],
+  "collisionRadius": 68,
+  "shieldCenter": [5, -0],
+  "shieldRadius": 62.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "repair_gantry",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-19, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-28, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    34, -20,
+    19, -15.5,
+    5.5, -16,
+    4, -12,
+    -10.5, -12,
+    2.5, -19,
+    -1.5, -27,
+    -40, -29,
+    -40, -16,
+    -33, -14,
+    -33, 14,
+    -40, 16,
+    -40, 29,
+    -1.5, 27,
+    2.5, 19,
+    -11, 13,
+    2, 13,
+    18, 18.5,
+    28.5, 11,
+    55.5, 9.5,
+    32.5, 5,
+    59, 0.5,
+    29.5, -6,
+    58, -7.5,
+    34, -14.5,
+    60, -19
+  ]
+}

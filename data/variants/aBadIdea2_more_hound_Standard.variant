@@ -1,0 +1,41 @@
+{
+  "variantId": "aBadIdea2_more_hound_Standard",
+  "hullId": "aBadIdea2_more_hound",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "hephag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0008": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

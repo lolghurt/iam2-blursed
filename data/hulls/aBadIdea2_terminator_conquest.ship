@@ -1,225 +1,154 @@
 {
-  "bounds": [
-    196,
-    54,
-    103,
-    81,
-    75,
-    62,
-    -45.5,
-    81,
-    -81,
-    65,
-    -105,
-    87.5,
-    -193.5,
-    85,
-    -187.5,
-    19,
-    -164.5,
-    15,
-    -164.5,
-    -15,
-    -187.5,
-    -19,
-    -193.5,
-    -85,
-    -105,
-    -87.5,
-    -81,
-    -65,
-    -45.5,
-    -81,
-    75,
-    -62,
-    103,
-    -81,
-    196,
-    -54,
-    109.5,
-    -14,
-    84.5,
-    -14.5,
-    84.5,
-    14.5,
-    -5.5,
-    14,
-    -5.5,
-    -14,
-    84.5,
-    -14.5,
-    109.5,
-    -14,
-    109.5,
-    14
-  ],
+  "hullName": "Terminator Conquest",
+  "hullId": "aBadIdea2_terminator_conquest",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/aBadIdea2_terminator_conquest.png",
+  "style": "MIDLINE",
+  "height": 397,
+  "width": 188,
+  "center": [94, 198.5],
+  "collisionRadius": 236,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 232.5,
+  "viewOffset": 0,
   "builtInWeapons": {
     "WS0001": "vulcan"
   },
-  "center": [
-    94,
-    198.5
-  ],
-  "collisionRadius": 236,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 11,
-      "length": 55,
-      "location": [
-        -198.5,
-        -38.5
-      ],
-      "style": "MIDLINE",
-      "width": 11
-    },
-    {
-      "angle": -180,
-      "contrailSize": 11,
-      "length": 55,
-      "location": [
-        -198.5,
-        38.5
-      ],
-      "style": "MIDLINE",
-      "width": 11
-    },
-    {
-      "angle": 180,
-      "contrailSize": 11,
-      "length": 55,
-      "location": [
-        -197.5,
-        -52.5
-      ],
-      "style": "MIDLINE",
-      "width": 11
-    },
-    {
-      "angle": -180,
-      "contrailSize": 11,
-      "length": 55,
-      "location": [
-        -197.5,
-        52.5
-      ],
-      "style": "MIDLINE",
-      "width": 11
-    },
-    {
-      "angle": 180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -196.5,
-        -72.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    },
-    {
-      "angle": -180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -196.5,
-        72.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    },
-    {
-      "angle": 180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -194.5,
-        -80.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    },
-    {
-      "angle": -180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -194.5,
-        80.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    },
-    {
-      "angle": 180,
-      "contrailSize": 16,
-      "length": 80,
-      "location": [
-        -190.5,
-        -22
-      ],
-      "style": "MIDLINE",
-      "width": 16
-    },
-    {
-      "angle": -180,
-      "contrailSize": 16,
-      "length": 80,
-      "location": [
-        -190.5,
-        22
-      ],
-      "style": "MIDLINE",
-      "width": 16
-    },
-    {
-      "angle": 180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -196.5,
-        -63.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    },
-    {
-      "angle": -180,
-      "contrailSize": 9,
-      "length": 45,
-      "location": [
-        -196.5,
-        63.5
-      ],
-      "style": "MIDLINE",
-      "width": 9
-    }
-  ],
-  "height": 397,
-  "hullId": "aBadIdea2_terminator_conquest",
-  "hullName": "Terminator Conquest",
-  "hullSize": "FIGHTER",
-  "shieldCenter": [
-    0,
-    0
-  ],
-  "shieldRadius": 232.5,
-  "spriteName": "graphics/ships/aBadIdea2_terminator_conquest.png",
-  "style": "MIDLINE",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0001",
-      "locations": [
-        108.5,
-        -0
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [108.5, -0]
     }
   ],
-  "width": 188
+  "engineSlots": [
+    {
+      "location": [-198.5, -38.5],
+      "length": 55,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-198.5, 38.5],
+      "length": 55,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-197.5, -52.5],
+      "length": 55,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-197.5, 52.5],
+      "length": 55,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, -72.5],
+      "length": 45,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, 72.5],
+      "length": 45,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, -80.5],
+      "length": 45,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, 80.5],
+      "length": 45,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-190.5, -22],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-190.5, 22],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, -63.5],
+      "length": 45,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, 63.5],
+      "length": 45,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    189, 43,
+    103, 75.5,
+    71, 57.5,
+    -45, 73.5,
+    -83.5, 61.5,
+    -134.5, 89,
+    -189.5, 84,
+    -187.5, 19,
+    -164.5, 15,
+    -164.5, -15,
+    -187.5, -19,
+    -189.5, -84,
+    -134.5, -89,
+    -83.5, -61.5,
+    -45, -73.5,
+    71, -57.5,
+    103, -75.5,
+    189, -43,
+    109.5, -14,
+    84.5, -14.5,
+    84.5, 14.5,
+    -5.5, 14,
+    -5.5, -14,
+    84.5, -14.5,
+    109.5, -14,
+    109.5, 14
+  ]
 }

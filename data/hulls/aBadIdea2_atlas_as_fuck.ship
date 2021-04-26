@@ -1,171 +1,124 @@
 {
-  "bounds": [
-    70.5,
-    23,
-    52,
-    61,
-    0.5,
-    64.5,
-    -12,
-    90,
-    -29.5,
-    56,
-    -72,
-    56,
-    -86,
-    36,
-    -86,
-    -36,
-    -72,
-    -56,
-    -29.5,
-    -56,
-    -12,
-    -90,
-    0.5,
-    -64.5,
-    52,
-    -61,
-    70.5,
-    -23
-  ],
+  "hullName": "Atlas?",
+  "hullId": "aBadIdea2_atlas_as_fuck",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/aBadIdea2_atlas_as_fuck.png",
+  "style": "LOW_TECH",
+  "height": 181,
+  "width": 176,
+  "center": [88, 90.5],
+  "collisionRadius": 110,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 109.5,
+  "viewOffset": 0,
   "builtInMods": [
     "shielded_holds",
     "civgrade"
   ],
-  "center": [
-    88,
-    90.5
-  ],
-  "collisionRadius": 110,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 7,
-      "length": 30,
-      "location": [
-        -84.5,
-        43.5
-      ],
-      "style": "LOW_TECH",
-      "width": 7
-    },
-    {
-      "angle": -180,
-      "contrailSize": 7,
-      "length": 30,
-      "location": [
-        -84.5,
-        -43.5
-      ],
-      "style": "LOW_TECH",
-      "width": 7
-    },
-    {
-      "angle": 180,
-      "contrailSize": 12,
-      "length": 40,
-      "location": [
-        -87.5,
-        33
-      ],
-      "style": "LOW_TECH",
-      "width": 12
-    },
-    {
-      "angle": -180,
-      "contrailSize": 12,
-      "length": 40,
-      "location": [
-        -87.5,
-        -33
-      ],
-      "style": "LOW_TECH",
-      "width": 12
-    },
-    {
-      "angle": 180,
-      "contrailSize": 12,
-      "length": 40,
-      "location": [
-        -89.5,
-        -17
-      ],
-      "style": "LOW_TECH",
-      "width": 12
-    },
-    {
-      "angle": 180,
-      "contrailSize": 12,
-      "length": 40,
-      "location": [
-        -89.5,
-        17
-      ],
-      "style": "LOW_TECH",
-      "width": 12
-    },
-    {
-      "angle": 180,
-      "contrailSize": 16,
-      "length": 50.5,
-      "location": [
-        -90.5,
-        -0
-      ],
-      "style": "LOW_TECH",
-      "width": 16
-    }
-  ],
-  "height": 181,
-  "hullId": "aBadIdea2_atlas_as_fuck",
-  "hullName": "Atlas?",
-  "hullSize": "CRUISER",
-  "shieldCenter": [
-    0,
-    0
-  ],
-  "shieldRadius": 109.5,
-  "spriteName": "graphics/ships/aBadIdea2_atlas_as_fuck.png",
-  "style": "LOW_TECH",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 210,
       "id": "WS0001",
-      "locations": [
-        51.5,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [51.5, -0]
     },
     {
-      "angle": -90,
-      "arc": 210,
       "id": "WS0002",
-      "locations": [
-        -13.5,
-        -78
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-13.5, -78]
     },
     {
-      "angle": 90,
-      "arc": 210,
       "id": "WS0003",
-      "locations": [
-        -13.5,
-        78
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-13.5, 78]
     }
   ],
-  "width": 176
+  "engineSlots": [
+    {
+      "location": [-84.5, 43.5],
+      "length": 30,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-84.5, -43.5],
+      "length": 30,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, 33],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, -33],
+      "length": 40,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, -17],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, 17],
+      "length": 40,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90.5, -0],
+      "length": 50.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    70.5, 23,
+    47.5, 58.5,
+    -2, 62.5,
+    -4, 87,
+    -27, 80.5,
+    -28, 55.5,
+    -70.5, 54.5,
+    -84.5, 47,
+    -89.5, -0,
+    -84.5, -47,
+    -70.5, -54.5,
+    -28, -55.5,
+    -27, -80.5,
+    -4, -87,
+    -2, -62.5,
+    47.5, -58.5,
+    70.5, -23
+  ]
 }

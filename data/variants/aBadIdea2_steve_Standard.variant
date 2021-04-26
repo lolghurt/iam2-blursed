@@ -1,0 +1,26 @@
+{
+  "variantId": "aBadIdea2_steve_Standard",
+  "hullId": "aBadIdea2_steve",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "auxiliarythrusters",
+    "blast_doors"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "squall"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

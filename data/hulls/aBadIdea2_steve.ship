@@ -1,0 +1,72 @@
+{
+  "hullName": "Steve",
+  "hullId": "aBadIdea2_steve",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_steve.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 31],
+  "collisionRadius": 51.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 51,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hbi",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [27, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-17, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    40, -17,
+    15.5, -17,
+    16.5, -22.5,
+    2.5, -29,
+    -29, -29,
+    -29, -16,
+    -23, -9,
+    -23, 9,
+    -29, 16,
+    -29, 29,
+    16, 30,
+    22, 25,
+    22, 19,
+    40, 17
+  ]
+}

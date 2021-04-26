@@ -1,4425 +1,3313 @@
 {
-    "bounds": [
-        43,
-        13,
-        37,
-        -14,
-        5,
-        -10,
-        14,
-        -19,
-        13,
-        -28,
-        -21,
-        -27,
-        -23,
-        -17,
-        -7,
-        -15,
-        -19,
-        -11,
-        -20,
-        9,
-        -8,
-        15,
-        -23,
-        17,
-        -24,
-        26,
-        15,
-        27,
-        16,
-        18,
-        11,
-        12
-    ],
-    "builtInMods": ["shielded_holds"],
-    "center": [
-        31,
-        27
-    ],
-    "collisionRadius": 73,
-    "engineSlots": [
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 80,
-            "location": [
-                -25,
-                22
-            ],
-            "style": "LOW_TECH",
-            "width": 16
-        },
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 80,
-            "location": [
-                -25,
-                -22
-            ],
-            "style": "LOW_TECH",
-            "width": 16
-        }
-    ],
-    "height": 72,
-    "hullId": "aBadIdea2_hownd",
-    "hullName": "H-OW-nd",
-    "hullSize": "FRIGATE",
-    "shieldCenter": [
-        8,
-        0
-    ],
-    "shieldRadius": 64,
-    "spriteName": "graphics/ships/hound/hound_base.png",
-    "style": "LOW_TECH",
-    "viewOffset": 0,
-    "weaponSlots": [
-        {
-            "angle": 0,
-            "arc": 5,
-            "id": "WS 001",
-            "locations": [
-                34,
-                -6
-            ],
-            "mount": "HARDPOINT",
-            "size": "MEDIUM",
-            "type": "BALLISTIC"
-        },
-        {
-            "angle": 145,
-            "arc": 290,
-            "id": "WS 002",
-            "locations": [
-                -4,
-                4
-            ],
-            "mount": "TURRET",
-            "size": "SMALL",
-            "type": "BALLISTIC"
-        },
-        {
-            "angle": 0,
-            "arc": 90,
-            "id": "FS 0",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 1,
-            "arc": 90,
-            "id": "FS 1",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 2,
-            "arc": 90,
-            "id": "FS 2",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 3,
-            "arc": 90,
-            "id": "FS 3",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 4,
-            "arc": 90,
-            "id": "FS 4",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 5,
-            "arc": 90,
-            "id": "FS 5",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 6,
-            "arc": 90,
-            "id": "FS 6",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 7,
-            "arc": 90,
-            "id": "FS 7",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 8,
-            "arc": 90,
-            "id": "FS 8",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 9,
-            "arc": 90,
-            "id": "FS 9",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 10,
-            "arc": 90,
-            "id": "FS 10",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 11,
-            "arc": 90,
-            "id": "FS 11",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 12,
-            "arc": 90,
-            "id": "FS 12",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 13,
-            "arc": 90,
-            "id": "FS 13",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 14,
-            "arc": 90,
-            "id": "FS 14",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 15,
-            "arc": 90,
-            "id": "FS 15",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 16,
-            "arc": 90,
-            "id": "FS 16",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 17,
-            "arc": 90,
-            "id": "FS 17",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 18,
-            "arc": 90,
-            "id": "FS 18",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 19,
-            "arc": 90,
-            "id": "FS 19",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 20,
-            "arc": 90,
-            "id": "FS 20",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 21,
-            "arc": 90,
-            "id": "FS 21",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 22,
-            "arc": 90,
-            "id": "FS 22",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 23,
-            "arc": 90,
-            "id": "FS 23",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 24,
-            "arc": 90,
-            "id": "FS 24",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 25,
-            "arc": 90,
-            "id": "FS 25",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 26,
-            "arc": 90,
-            "id": "FS 26",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 27,
-            "arc": 90,
-            "id": "FS 27",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 28,
-            "arc": 90,
-            "id": "FS 28",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 29,
-            "arc": 90,
-            "id": "FS 29",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 30,
-            "arc": 90,
-            "id": "FS 30",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 31,
-            "arc": 90,
-            "id": "FS 31",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 32,
-            "arc": 90,
-            "id": "FS 32",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 33,
-            "arc": 90,
-            "id": "FS 33",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 34,
-            "arc": 90,
-            "id": "FS 34",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 35,
-            "arc": 90,
-            "id": "FS 35",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 36,
-            "arc": 90,
-            "id": "FS 36",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 37,
-            "arc": 90,
-            "id": "FS 37",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 38,
-            "arc": 90,
-            "id": "FS 38",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 39,
-            "arc": 90,
-            "id": "FS 39",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 40,
-            "arc": 90,
-            "id": "FS 40",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 41,
-            "arc": 90,
-            "id": "FS 41",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 42,
-            "arc": 90,
-            "id": "FS 42",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 43,
-            "arc": 90,
-            "id": "FS 43",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 44,
-            "arc": 90,
-            "id": "FS 44",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 45,
-            "arc": 90,
-            "id": "FS 45",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 46,
-            "arc": 90,
-            "id": "FS 46",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 47,
-            "arc": 90,
-            "id": "FS 47",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 48,
-            "arc": 90,
-            "id": "FS 48",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 49,
-            "arc": 90,
-            "id": "FS 49",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 50,
-            "arc": 90,
-            "id": "FS 50",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 51,
-            "arc": 90,
-            "id": "FS 51",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 52,
-            "arc": 90,
-            "id": "FS 52",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 53,
-            "arc": 90,
-            "id": "FS 53",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 54,
-            "arc": 90,
-            "id": "FS 54",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 55,
-            "arc": 90,
-            "id": "FS 55",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 56,
-            "arc": 90,
-            "id": "FS 56",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 57,
-            "arc": 90,
-            "id": "FS 57",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 58,
-            "arc": 90,
-            "id": "FS 58",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 59,
-            "arc": 90,
-            "id": "FS 59",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 60,
-            "arc": 90,
-            "id": "FS 60",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 61,
-            "arc": 90,
-            "id": "FS 61",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 62,
-            "arc": 90,
-            "id": "FS 62",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 63,
-            "arc": 90,
-            "id": "FS 63",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 64,
-            "arc": 90,
-            "id": "FS 64",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 65,
-            "arc": 90,
-            "id": "FS 65",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 66,
-            "arc": 90,
-            "id": "FS 66",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 67,
-            "arc": 90,
-            "id": "FS 67",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 68,
-            "arc": 90,
-            "id": "FS 68",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 69,
-            "arc": 90,
-            "id": "FS 69",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 70,
-            "arc": 90,
-            "id": "FS 70",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 71,
-            "arc": 90,
-            "id": "FS 71",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 72,
-            "arc": 90,
-            "id": "FS 72",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 73,
-            "arc": 90,
-            "id": "FS 73",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 74,
-            "arc": 90,
-            "id": "FS 74",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 75,
-            "arc": 90,
-            "id": "FS 75",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 76,
-            "arc": 90,
-            "id": "FS 76",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 77,
-            "arc": 90,
-            "id": "FS 77",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 78,
-            "arc": 90,
-            "id": "FS 78",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 79,
-            "arc": 90,
-            "id": "FS 79",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 80,
-            "arc": 90,
-            "id": "FS 80",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 81,
-            "arc": 90,
-            "id": "FS 81",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 82,
-            "arc": 90,
-            "id": "FS 82",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 83,
-            "arc": 90,
-            "id": "FS 83",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 84,
-            "arc": 90,
-            "id": "FS 84",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 85,
-            "arc": 90,
-            "id": "FS 85",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 86,
-            "arc": 90,
-            "id": "FS 86",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 87,
-            "arc": 90,
-            "id": "FS 87",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 88,
-            "arc": 90,
-            "id": "FS 88",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 89,
-            "arc": 90,
-            "id": "FS 89",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 90,
-            "arc": 90,
-            "id": "FS 90",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 91,
-            "arc": 90,
-            "id": "FS 91",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 92,
-            "arc": 90,
-            "id": "FS 92",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 93,
-            "arc": 90,
-            "id": "FS 93",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 94,
-            "arc": 90,
-            "id": "FS 94",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 95,
-            "arc": 90,
-            "id": "FS 95",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 96,
-            "arc": 90,
-            "id": "FS 96",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 97,
-            "arc": 90,
-            "id": "FS 97",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 98,
-            "arc": 90,
-            "id": "FS 98",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 99,
-            "arc": 90,
-            "id": "FS 99",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 100,
-            "arc": 90,
-            "id": "FS 100",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 101,
-            "arc": 90,
-            "id": "FS 101",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 102,
-            "arc": 90,
-            "id": "FS 102",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 103,
-            "arc": 90,
-            "id": "FS 103",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 104,
-            "arc": 90,
-            "id": "FS 104",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 105,
-            "arc": 90,
-            "id": "FS 105",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 106,
-            "arc": 90,
-            "id": "FS 106",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 107,
-            "arc": 90,
-            "id": "FS 107",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 108,
-            "arc": 90,
-            "id": "FS 108",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 109,
-            "arc": 90,
-            "id": "FS 109",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 110,
-            "arc": 90,
-            "id": "FS 110",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 111,
-            "arc": 90,
-            "id": "FS 111",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 112,
-            "arc": 90,
-            "id": "FS 112",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 113,
-            "arc": 90,
-            "id": "FS 113",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 114,
-            "arc": 90,
-            "id": "FS 114",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 115,
-            "arc": 90,
-            "id": "FS 115",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 116,
-            "arc": 90,
-            "id": "FS 116",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 117,
-            "arc": 90,
-            "id": "FS 117",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 118,
-            "arc": 90,
-            "id": "FS 118",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 119,
-            "arc": 90,
-            "id": "FS 119",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 120,
-            "arc": 90,
-            "id": "FS 120",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 121,
-            "arc": 90,
-            "id": "FS 121",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 122,
-            "arc": 90,
-            "id": "FS 122",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 123,
-            "arc": 90,
-            "id": "FS 123",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 124,
-            "arc": 90,
-            "id": "FS 124",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 125,
-            "arc": 90,
-            "id": "FS 125",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 126,
-            "arc": 90,
-            "id": "FS 126",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 127,
-            "arc": 90,
-            "id": "FS 127",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 128,
-            "arc": 90,
-            "id": "FS 128",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 129,
-            "arc": 90,
-            "id": "FS 129",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 130,
-            "arc": 90,
-            "id": "FS 130",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 131,
-            "arc": 90,
-            "id": "FS 131",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 132,
-            "arc": 90,
-            "id": "FS 132",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 133,
-            "arc": 90,
-            "id": "FS 133",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 134,
-            "arc": 90,
-            "id": "FS 134",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 135,
-            "arc": 90,
-            "id": "FS 135",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 136,
-            "arc": 90,
-            "id": "FS 136",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 137,
-            "arc": 90,
-            "id": "FS 137",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 138,
-            "arc": 90,
-            "id": "FS 138",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 139,
-            "arc": 90,
-            "id": "FS 139",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 140,
-            "arc": 90,
-            "id": "FS 140",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 141,
-            "arc": 90,
-            "id": "FS 141",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 142,
-            "arc": 90,
-            "id": "FS 142",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 143,
-            "arc": 90,
-            "id": "FS 143",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 144,
-            "arc": 90,
-            "id": "FS 144",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 145,
-            "arc": 90,
-            "id": "FS 145",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 146,
-            "arc": 90,
-            "id": "FS 146",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 147,
-            "arc": 90,
-            "id": "FS 147",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 148,
-            "arc": 90,
-            "id": "FS 148",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 149,
-            "arc": 90,
-            "id": "FS 149",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 150,
-            "arc": 90,
-            "id": "FS 150",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 151,
-            "arc": 90,
-            "id": "FS 151",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 152,
-            "arc": 90,
-            "id": "FS 152",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 153,
-            "arc": 90,
-            "id": "FS 153",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 154,
-            "arc": 90,
-            "id": "FS 154",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 155,
-            "arc": 90,
-            "id": "FS 155",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 156,
-            "arc": 90,
-            "id": "FS 156",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 157,
-            "arc": 90,
-            "id": "FS 157",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 158,
-            "arc": 90,
-            "id": "FS 158",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 159,
-            "arc": 90,
-            "id": "FS 159",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 160,
-            "arc": 90,
-            "id": "FS 160",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 161,
-            "arc": 90,
-            "id": "FS 161",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 162,
-            "arc": 90,
-            "id": "FS 162",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 163,
-            "arc": 90,
-            "id": "FS 163",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 164,
-            "arc": 90,
-            "id": "FS 164",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 165,
-            "arc": 90,
-            "id": "FS 165",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 166,
-            "arc": 90,
-            "id": "FS 166",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 167,
-            "arc": 90,
-            "id": "FS 167",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 168,
-            "arc": 90,
-            "id": "FS 168",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 169,
-            "arc": 90,
-            "id": "FS 169",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 170,
-            "arc": 90,
-            "id": "FS 170",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 171,
-            "arc": 90,
-            "id": "FS 171",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 172,
-            "arc": 90,
-            "id": "FS 172",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 173,
-            "arc": 90,
-            "id": "FS 173",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 174,
-            "arc": 90,
-            "id": "FS 174",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 175,
-            "arc": 90,
-            "id": "FS 175",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 176,
-            "arc": 90,
-            "id": "FS 176",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 177,
-            "arc": 90,
-            "id": "FS 177",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 178,
-            "arc": 90,
-            "id": "FS 178",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 179,
-            "arc": 90,
-            "id": "FS 179",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 180,
-            "arc": 90,
-            "id": "FS 180",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 181,
-            "arc": 90,
-            "id": "FS 181",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 182,
-            "arc": 90,
-            "id": "FS 182",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 183,
-            "arc": 90,
-            "id": "FS 183",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 184,
-            "arc": 90,
-            "id": "FS 184",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 185,
-            "arc": 90,
-            "id": "FS 185",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 186,
-            "arc": 90,
-            "id": "FS 186",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 187,
-            "arc": 90,
-            "id": "FS 187",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 188,
-            "arc": 90,
-            "id": "FS 188",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 189,
-            "arc": 90,
-            "id": "FS 189",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 190,
-            "arc": 90,
-            "id": "FS 190",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 191,
-            "arc": 90,
-            "id": "FS 191",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 192,
-            "arc": 90,
-            "id": "FS 192",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 193,
-            "arc": 90,
-            "id": "FS 193",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 194,
-            "arc": 90,
-            "id": "FS 194",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 195,
-            "arc": 90,
-            "id": "FS 195",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 196,
-            "arc": 90,
-            "id": "FS 196",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 197,
-            "arc": 90,
-            "id": "FS 197",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 198,
-            "arc": 90,
-            "id": "FS 198",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 199,
-            "arc": 90,
-            "id": "FS 199",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 200,
-            "arc": 90,
-            "id": "FS 200",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 201,
-            "arc": 90,
-            "id": "FS 201",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 202,
-            "arc": 90,
-            "id": "FS 202",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 203,
-            "arc": 90,
-            "id": "FS 203",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 204,
-            "arc": 90,
-            "id": "FS 204",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 205,
-            "arc": 90,
-            "id": "FS 205",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 206,
-            "arc": 90,
-            "id": "FS 206",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 207,
-            "arc": 90,
-            "id": "FS 207",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 208,
-            "arc": 90,
-            "id": "FS 208",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 209,
-            "arc": 90,
-            "id": "FS 209",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 210,
-            "arc": 90,
-            "id": "FS 210",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 211,
-            "arc": 90,
-            "id": "FS 211",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 212,
-            "arc": 90,
-            "id": "FS 212",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 213,
-            "arc": 90,
-            "id": "FS 213",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 214,
-            "arc": 90,
-            "id": "FS 214",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 215,
-            "arc": 90,
-            "id": "FS 215",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 216,
-            "arc": 90,
-            "id": "FS 216",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 217,
-            "arc": 90,
-            "id": "FS 217",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 218,
-            "arc": 90,
-            "id": "FS 218",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 219,
-            "arc": 90,
-            "id": "FS 219",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 220,
-            "arc": 90,
-            "id": "FS 220",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 221,
-            "arc": 90,
-            "id": "FS 221",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 222,
-            "arc": 90,
-            "id": "FS 222",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 223,
-            "arc": 90,
-            "id": "FS 223",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 224,
-            "arc": 90,
-            "id": "FS 224",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 225,
-            "arc": 90,
-            "id": "FS 225",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 226,
-            "arc": 90,
-            "id": "FS 226",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 227,
-            "arc": 90,
-            "id": "FS 227",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 228,
-            "arc": 90,
-            "id": "FS 228",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 229,
-            "arc": 90,
-            "id": "FS 229",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 230,
-            "arc": 90,
-            "id": "FS 230",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 231,
-            "arc": 90,
-            "id": "FS 231",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 232,
-            "arc": 90,
-            "id": "FS 232",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 233,
-            "arc": 90,
-            "id": "FS 233",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 234,
-            "arc": 90,
-            "id": "FS 234",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 235,
-            "arc": 90,
-            "id": "FS 235",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 236,
-            "arc": 90,
-            "id": "FS 236",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 237,
-            "arc": 90,
-            "id": "FS 237",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 238,
-            "arc": 90,
-            "id": "FS 238",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 239,
-            "arc": 90,
-            "id": "FS 239",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 240,
-            "arc": 90,
-            "id": "FS 240",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 241,
-            "arc": 90,
-            "id": "FS 241",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 242,
-            "arc": 90,
-            "id": "FS 242",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 243,
-            "arc": 90,
-            "id": "FS 243",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 244,
-            "arc": 90,
-            "id": "FS 244",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 245,
-            "arc": 90,
-            "id": "FS 245",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 246,
-            "arc": 90,
-            "id": "FS 246",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 247,
-            "arc": 90,
-            "id": "FS 247",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 248,
-            "arc": 90,
-            "id": "FS 248",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 249,
-            "arc": 90,
-            "id": "FS 249",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 250,
-            "arc": 90,
-            "id": "FS 250",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 251,
-            "arc": 90,
-            "id": "FS 251",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 252,
-            "arc": 90,
-            "id": "FS 252",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 253,
-            "arc": 90,
-            "id": "FS 253",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 254,
-            "arc": 90,
-            "id": "FS 254",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 255,
-            "arc": 90,
-            "id": "FS 255",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 256,
-            "arc": 90,
-            "id": "FS 256",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 257,
-            "arc": 90,
-            "id": "FS 257",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 258,
-            "arc": 90,
-            "id": "FS 258",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 259,
-            "arc": 90,
-            "id": "FS 259",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 260,
-            "arc": 90,
-            "id": "FS 260",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 261,
-            "arc": 90,
-            "id": "FS 261",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 262,
-            "arc": 90,
-            "id": "FS 262",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 263,
-            "arc": 90,
-            "id": "FS 263",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 264,
-            "arc": 90,
-            "id": "FS 264",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 265,
-            "arc": 90,
-            "id": "FS 265",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 266,
-            "arc": 90,
-            "id": "FS 266",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 267,
-            "arc": 90,
-            "id": "FS 267",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 268,
-            "arc": 90,
-            "id": "FS 268",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 269,
-            "arc": 90,
-            "id": "FS 269",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 270,
-            "arc": 90,
-            "id": "FS 270",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 271,
-            "arc": 90,
-            "id": "FS 271",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 272,
-            "arc": 90,
-            "id": "FS 272",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 273,
-            "arc": 90,
-            "id": "FS 273",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 274,
-            "arc": 90,
-            "id": "FS 274",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 275,
-            "arc": 90,
-            "id": "FS 275",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 276,
-            "arc": 90,
-            "id": "FS 276",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 277,
-            "arc": 90,
-            "id": "FS 277",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 278,
-            "arc": 90,
-            "id": "FS 278",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 279,
-            "arc": 90,
-            "id": "FS 279",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 280,
-            "arc": 90,
-            "id": "FS 280",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 281,
-            "arc": 90,
-            "id": "FS 281",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 282,
-            "arc": 90,
-            "id": "FS 282",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 283,
-            "arc": 90,
-            "id": "FS 283",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 284,
-            "arc": 90,
-            "id": "FS 284",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 285,
-            "arc": 90,
-            "id": "FS 285",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 286,
-            "arc": 90,
-            "id": "FS 286",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 287,
-            "arc": 90,
-            "id": "FS 287",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 288,
-            "arc": 90,
-            "id": "FS 288",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 289,
-            "arc": 90,
-            "id": "FS 289",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 290,
-            "arc": 90,
-            "id": "FS 290",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 291,
-            "arc": 90,
-            "id": "FS 291",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 292,
-            "arc": 90,
-            "id": "FS 292",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 293,
-            "arc": 90,
-            "id": "FS 293",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 294,
-            "arc": 90,
-            "id": "FS 294",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 295,
-            "arc": 90,
-            "id": "FS 295",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 296,
-            "arc": 90,
-            "id": "FS 296",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 297,
-            "arc": 90,
-            "id": "FS 297",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 298,
-            "arc": 90,
-            "id": "FS 298",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 299,
-            "arc": 90,
-            "id": "FS 299",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 300,
-            "arc": 90,
-            "id": "FS 300",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 301,
-            "arc": 90,
-            "id": "FS 301",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 302,
-            "arc": 90,
-            "id": "FS 302",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 303,
-            "arc": 90,
-            "id": "FS 303",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 304,
-            "arc": 90,
-            "id": "FS 304",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 305,
-            "arc": 90,
-            "id": "FS 305",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 306,
-            "arc": 90,
-            "id": "FS 306",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 307,
-            "arc": 90,
-            "id": "FS 307",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 308,
-            "arc": 90,
-            "id": "FS 308",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 309,
-            "arc": 90,
-            "id": "FS 309",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 310,
-            "arc": 90,
-            "id": "FS 310",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 311,
-            "arc": 90,
-            "id": "FS 311",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 312,
-            "arc": 90,
-            "id": "FS 312",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 313,
-            "arc": 90,
-            "id": "FS 313",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 314,
-            "arc": 90,
-            "id": "FS 314",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 315,
-            "arc": 90,
-            "id": "FS 315",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 316,
-            "arc": 90,
-            "id": "FS 316",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 317,
-            "arc": 90,
-            "id": "FS 317",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 318,
-            "arc": 90,
-            "id": "FS 318",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 319,
-            "arc": 90,
-            "id": "FS 319",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 320,
-            "arc": 90,
-            "id": "FS 320",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 321,
-            "arc": 90,
-            "id": "FS 321",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 322,
-            "arc": 90,
-            "id": "FS 322",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 323,
-            "arc": 90,
-            "id": "FS 323",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 324,
-            "arc": 90,
-            "id": "FS 324",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 325,
-            "arc": 90,
-            "id": "FS 325",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 326,
-            "arc": 90,
-            "id": "FS 326",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 327,
-            "arc": 90,
-            "id": "FS 327",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 328,
-            "arc": 90,
-            "id": "FS 328",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 329,
-            "arc": 90,
-            "id": "FS 329",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 330,
-            "arc": 90,
-            "id": "FS 330",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 331,
-            "arc": 90,
-            "id": "FS 331",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 332,
-            "arc": 90,
-            "id": "FS 332",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 333,
-            "arc": 90,
-            "id": "FS 333",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 334,
-            "arc": 90,
-            "id": "FS 334",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 335,
-            "arc": 90,
-            "id": "FS 335",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 336,
-            "arc": 90,
-            "id": "FS 336",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 337,
-            "arc": 90,
-            "id": "FS 337",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 338,
-            "arc": 90,
-            "id": "FS 338",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 339,
-            "arc": 90,
-            "id": "FS 339",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 340,
-            "arc": 90,
-            "id": "FS 340",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 341,
-            "arc": 90,
-            "id": "FS 341",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 342,
-            "arc": 90,
-            "id": "FS 342",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 343,
-            "arc": 90,
-            "id": "FS 343",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 344,
-            "arc": 90,
-            "id": "FS 344",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 345,
-            "arc": 90,
-            "id": "FS 345",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 346,
-            "arc": 90,
-            "id": "FS 346",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 347,
-            "arc": 90,
-            "id": "FS 347",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 348,
-            "arc": 90,
-            "id": "FS 348",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 349,
-            "arc": 90,
-            "id": "FS 349",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 350,
-            "arc": 90,
-            "id": "FS 350",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 351,
-            "arc": 90,
-            "id": "FS 351",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 352,
-            "arc": 90,
-            "id": "FS 352",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 353,
-            "arc": 90,
-            "id": "FS 353",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 354,
-            "arc": 90,
-            "id": "FS 354",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 355,
-            "arc": 90,
-            "id": "FS 355",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 356,
-            "arc": 90,
-            "id": "FS 356",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 357,
-            "arc": 90,
-            "id": "FS 357",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 358,
-            "arc": 90,
-            "id": "FS 358",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 359,
-            "arc": 90,
-            "id": "FS 359",
-            "locations": [
-                -19,
-                0
-            ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        }
-    ],
-    "width": 62
+  "hullName": "H-OW-nd",
+  "hullId": "aBadIdea2_hownd",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hound/hound_base.png",
+  "style": "LOW_TECH",
+  "height": 72,
+  "width": 62,
+  "center": [31, 27],
+  "collisionRadius": 73,
+  "shieldCenter": [8, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [34, -6]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 290,
+      "angle": 145,
+      "locations": [-4, 4]
+    },
+    {
+      "id": "FS 0",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 1,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 2",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 2,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 3",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 3,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 4",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 4,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 5",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 5,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 6",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 6,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 7",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 7,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 8",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 8,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 9",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 9,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 10",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 10,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 11",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 11,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 12",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 12,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 13",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 13,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 14",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 14,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 15",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 15,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 16",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 16,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 17",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 17,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 18",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 18,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 19",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 19,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 20",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 20,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 21",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 21,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 22",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 22,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 23",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 23,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 24",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 24,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 25",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 25,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 26",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 26,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 27",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 27,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 28",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 28,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 29",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 29,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 30",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 30,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 31",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 31,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 32",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 32,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 33",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 33,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 34",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 34,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 35",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 35,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 36",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 36,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 37",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 37,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 38",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 38,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 39",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 39,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 40",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 40,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 41",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 41,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 42",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 42,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 43",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 43,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 44",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 44,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 45",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 45,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 46",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 46,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 47",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 47,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 48",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 48,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 49",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 49,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 50",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 50,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 51",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 51,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 52",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 52,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 53",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 53,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 54",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 54,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 55",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 55,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 56",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 56,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 57",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 57,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 58",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 58,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 59",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 59,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 60",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 60,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 61",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 61,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 62",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 62,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 63",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 63,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 64",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 64,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 65",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 65,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 66",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 66,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 67",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 67,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 68",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 68,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 69",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 69,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 70",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 70,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 71",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 71,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 72",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 72,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 73",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 73,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 74",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 74,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 75",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 75,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 76",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 76,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 77",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 77,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 78",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 78,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 79",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 79,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 80",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 80,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 81",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 81,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 82",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 82,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 83",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 83,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 84",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 84,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 85",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 85,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 86",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 86,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 87",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 87,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 88",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 88,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 89",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 89,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 90",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 90,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 91",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 91,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 92",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 92,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 93",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 93,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 94",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 94,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 95",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 95,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 96",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 96,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 97",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 97,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 98",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 98,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 99",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 99,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 100",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 100,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 101",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 101,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 102",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 102,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 103",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 103,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 104",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 104,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 105",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 105,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 106",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 106,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 107",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 107,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 108",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 108,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 109",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 109,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 110",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 110,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 111",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 111,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 112",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 112,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 113",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 113,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 114",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 114,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 115",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 115,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 116",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 116,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 117",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 117,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 118",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 118,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 119",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 119,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 120",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 120,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 121",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 121,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 122",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 122,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 123",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 123,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 124",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 124,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 125",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 125,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 126",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 126,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 127",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 127,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 128",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 128,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 129",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 129,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 130",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 130,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 131",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 131,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 132",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 132,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 133",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 133,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 134",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 134,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 135",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 135,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 136",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 136,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 137",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 137,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 138",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 138,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 139",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 139,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 140",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 140,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 141",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 141,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 142",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 142,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 143",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 143,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 144",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 144,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 145",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 145,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 146",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 146,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 147",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 147,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 148",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 148,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 149",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 149,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 150",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 150,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 151",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 151,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 152",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 152,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 153",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 153,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 154",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 154,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 155",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 155,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 156",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 156,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 157",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 157,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 158",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 158,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 159",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 159,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 160",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 160,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 161",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 161,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 162",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 162,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 163",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 163,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 164",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 164,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 165",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 165,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 166",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 166,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 167",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 167,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 168",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 168,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 169",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 169,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 170",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 170,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 171",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 171,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 172",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 172,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 173",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 173,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 174",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 174,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 175",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 175,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 176",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 176,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 177",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 177,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 178",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 178,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 179",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 179,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 180",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 181",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 181,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 182",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 182,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 183",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 183,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 184",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 184,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 185",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 185,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 186",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 186,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 187",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 187,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 188",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 188,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 189",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 189,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 190",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 190,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 191",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 191,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 192",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 192,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 193",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 193,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 194",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 194,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 195",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 195,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 196",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 196,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 197",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 197,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 198",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 198,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 199",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 199,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 200",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 200,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 201",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 201,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 202",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 202,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 203",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 203,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 204",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 204,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 205",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 205,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 206",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 206,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 207",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 207,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 208",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 208,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 209",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 209,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 210",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 210,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 211",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 211,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 212",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 212,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 213",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 213,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 214",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 214,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 215",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 215,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 216",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 216,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 217",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 217,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 218",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 218,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 219",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 219,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 220",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 220,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 221",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 221,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 222",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 222,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 223",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 223,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 224",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 224,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 225",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 225,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 226",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 226,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 227",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 227,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 228",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 228,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 229",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 229,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 230",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 230,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 231",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 231,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 232",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 232,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 233",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 233,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 234",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 234,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 235",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 235,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 236",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 236,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 237",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 237,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 238",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 238,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 239",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 239,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 240",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 240,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 241",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 241,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 242",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 242,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 243",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 243,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 244",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 244,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 245",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 245,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 246",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 246,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 247",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 247,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 248",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 248,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 249",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 249,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 250",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 250,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 251",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 251,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 252",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 252,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 253",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 253,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 254",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 254,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 255",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 255,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 256",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 256,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 257",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 257,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 258",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 258,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 259",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 259,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 260",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 260,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 261",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 261,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 262",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 262,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 263",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 263,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 264",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 264,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 265",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 265,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 266",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 266,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 267",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 267,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 268",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 268,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 269",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 269,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 270",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 270,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 271",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 271,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 272",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 272,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 273",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 273,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 274",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 274,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 275",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 275,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 276",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 276,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 277",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 277,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 278",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 278,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 279",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 279,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 280",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 280,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 281",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 281,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 282",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 282,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 283",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 283,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 284",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 284,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 285",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 285,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 286",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 286,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 287",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 287,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 288",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 288,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 289",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 289,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 290",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 290,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 291",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 291,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 292",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 292,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 293",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 293,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 294",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 294,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 295",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 295,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 296",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 296,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 297",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 297,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 298",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 298,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 299",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 299,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 300",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 300,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 301",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 301,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 302",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 302,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 303",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 303,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 304",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 304,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 305",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 305,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 306",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 306,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 307",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 307,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 308",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 308,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 309",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 309,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 310",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 310,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 311",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 311,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 312",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 312,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 313",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 313,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 314",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 314,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 315",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 315,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 316",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 316,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 317",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 317,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 318",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 318,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 319",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 319,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 320",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 320,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 321",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 321,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 322",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 322,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 323",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 323,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 324",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 324,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 325",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 325,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 326",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 326,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 327",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 327,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 328",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 328,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 329",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 329,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 330",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 330,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 331",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 331,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 332",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 332,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 333",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 333,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 334",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 334,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 335",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 335,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 336",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 336,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 337",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 337,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 338",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 338,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 339",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 339,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 340",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 340,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 341",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 341,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 342",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 342,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 343",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 343,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 344",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 344,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 345",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 345,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 346",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 346,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 347",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 347,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 348",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 348,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 349",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 349,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 350",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 350,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 351",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 351,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 352",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 352,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 353",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 353,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 354",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 354,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 355",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 355,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 356",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 356,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 357",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 357,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 358",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 358,
+      "locations": [-19, 0]
+    },
+    {
+      "id": "FS 359",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 359,
+      "locations": [-19, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-25, 22],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-25, -22],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    43, 13,
+    37, -14,
+    5, -10,
+    14, -19,
+    13, -28,
+    -21, -27,
+    -23, -17,
+    -7, -15,
+    -19, -11,
+    -20, 9,
+    -8, 15,
+    -23, 17,
+    -24, 26,
+    15, 27,
+    16, 18,
+    11, 12
+  ]
 }

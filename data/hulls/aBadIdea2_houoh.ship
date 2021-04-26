@@ -1,92 +1,77 @@
 {
-  "bounds": [
-    32.5,
-    22.5,
-    -25.5,
-    32.5,
-    -25.5,
-    -32.5,
-    32.5,
-    -22.5
-  ],
-  "center": [
-    49.5,
-    30
-  ],
-  "collisionRadius": 60,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -29,
-        27.5
-      ],
-      "style": "LOW_TECH",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 30,
-      "length": 30,
-      "location": [
-        -29,
-        -27.5
-      ],
-      "style": "LOW_TECH",
-      "width": 10
-    }
-  ],
-  "height": 72,
-  "hullId": "aBadIdea2_houoh",
   "hullName": "Houoh",
+  "hullId": "aBadIdea2_houoh",
   "hullSize": "FRIGATE",
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 59,
   "spriteName": "graphics/ships/aBadIdea2_houoh.png",
   "style": "LOW_TECH",
+  "height": 72,
+  "width": 102,
+  "center": [49.5, 30],
+  "collisionRadius": 60,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 59,
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 161,
-      "arc": 120,
       "id": "WS0001",
-      "locations": [
-        -7,
-        9.5
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -161,
+      "type": "BALLISTIC",
+      "mount": "TURRET",
       "arc": 120,
-      "id": "WS0002",
-      "locations": [
-        -7,
-        -9.5
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BALLISTIC"
+      "angle": 161,
+      "locations": [-7, 9.5]
     },
     {
-      "angle": -0,
-      "arc": 10,
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -161,
+      "locations": [-7, -9.5]
+    },
+    {
       "id": "WS0003",
-      "locations": [
-        27.5,
-        -0
-      ],
-      "mount": "HARDPOINT",
       "size": "MEDIUM",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [27.5, -0]
     }
   ],
-  "width": 102
+  "engineSlots": [
+    {
+      "location": [-29, 27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, -27.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    37.5, 18.5,
+    0.5, 18,
+    15, 26.5,
+    6.5, 33.5,
+    -27.5, 34,
+    -27, 22,
+    -19, 13,
+    -19, -13,
+    -27, -22,
+    -27.5, -34,
+    6.5, -33.5,
+    15, -26.5,
+    0.5, -18,
+    37.5, -18.5
+  ]
 }

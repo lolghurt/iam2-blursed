@@ -1,151 +1,128 @@
 {
-  "bounds": [
-    88,
-    -32,
-    20,
-    -32,
-    20,
-    -44,
-    -8,
-    -44,
-    -48,
-    -24,
-    -48,
-    24,
-    -8,
-    44,
-    20,
-    44,
-    20,
-    32,
-    88,
-    32
-  ],
-  "center": [
-    52,
-    56
-  ],
-  "collisionRadius": 105,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 16,
-      "length": 80,
-      "location": [
-        -48,
-        -0
-      ],
-      "style": "MIDLINE",
-      "width": 16
-    },
-    {
-      "angle": 180,
-      "contrailSize": 16,
-      "length": 80,
-      "location": [
-        -48,
-        -20
-      ],
-      "style": "MIDLINE",
-      "width": 16
-    },
-    {
-      "angle": -180,
-      "contrailSize": 16,
-      "length": 80,
-      "location": [
-        -48,
-        20
-      ],
-      "style": "MIDLINE",
-      "width": 16
-    }
-  ],
-  "height": 160,
-  "hullId": "aBadIdea2_pilum_destroyer",
   "hullName": "Pilum",
+  "hullId": "aBadIdea2_pilum_destroyer",
   "hullSize": "DESTROYER",
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 104,
   "spriteName": "graphics/ships/aBadIdea2_pilum_destroyer.png",
   "style": "MIDLINE",
+  "height": 160,
+  "width": 104,
+  "center": [52, 56],
+  "collisionRadius": 105,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 104,
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 270,
       "id": "WS0001",
-      "locations": [
-        -18,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "LARGE",
-      "type": "MISSILE"
-    },
-    {
-      "angle": 90,
-      "arc": 5,
-      "id": "WS0002",
-      "locations": [
-        2,
-        41
-      ],
-      "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "MISSILE"
-    },
-    {
-      "angle": -90,
-      "arc": 5,
-      "id": "WS0003",
-      "locations": [
-        2,
-        -41
-      ],
+      "type": "MISSILE",
       "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [-18, -0]
+    },
+    {
+      "id": "WS0002",
       "size": "MEDIUM",
-      "type": "MISSILE"
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [2, 41]
     },
     {
-      "angle": 0,
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
       "arc": 5,
+      "angle": -90,
+      "locations": [2, -41]
+    },
+    {
       "id": "WS0004",
-      "locations": [
-        90,
-        20
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "MISSILE"
-    },
-    {
-      "angle": -0,
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
       "arc": 5,
-      "id": "WS0005",
-      "locations": [
-        90,
-        -20
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "MISSILE"
-    },
-    {
       "angle": 0,
-      "arc": 5,
-      "id": "WS0006",
-      "locations": [
-        90,
-        -0
-      ],
-      "mount": "HARDPOINT",
+      "locations": [90, 20]
+    },
+    {
+      "id": "WS0005",
       "size": "SMALL",
-      "type": "MISSILE"
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [90, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [90, -0]
     }
   ],
-  "width": 104
+  "engineSlots": [
+    {
+      "location": [-48, -0],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-48, -20],
+      "length": 80,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-48, 20],
+      "length": 80,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    88, -32,
+    20, -32,
+    20, -44,
+    11, -44,
+    2, -51,
+    -8, -44,
+    -16, -44,
+    -16, -40,
+    -20, -40,
+    -20, -36,
+    -40, -36,
+    -40, -32,
+    -44, -32,
+    -44, -28,
+    -48, -28,
+    -48, 28,
+    -44, 28,
+    -44, 32,
+    -40, 32,
+    -40, 36,
+    -20, 36,
+    -20, 40,
+    -16, 40,
+    -16, 44,
+    -8, 44,
+    2, 51,
+    11, 44,
+    20, 44,
+    20, 32,
+    88, 32
+  ]
 }

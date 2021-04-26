@@ -1,234 +1,185 @@
 {
-  "bounds": [
-    37,
-    -9,
-    -1.5,
-    -70,
-    -47,
-    -54.5,
-    -66.5,
-    -18.5,
-    -66.5,
-    18.5,
-    -47,
-    54.5,
-    -1.5,
-    70,
-    37,
-    9,
-    59,
-    -0
-  ],
+  "hullName": "Hyper Hyperion",
+  "hullId": "aBadIdea2_HyperHyperion",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/aBadIdea2_HyperHyperion.png",
+  "style": "HIGH_TECH",
+  "height": 144,
+  "width": 152,
+  "center": [76, 72],
+  "collisionRadius": 94.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
   "builtInMods": [
     "high_maintenance"
   ],
-  "center": [
-    76,
-    72
-  ],
-  "collisionRadius": 94.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 35,
-      "location": [
-        -70,
-        -8
-      ],
-      "style": "HIGH_TECH",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 35,
-      "location": [
-        -70,
-        8
-      ],
-      "style": "HIGH_TECH",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -65,
-        -31
-      ],
-      "style": "HIGH_TECH",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -65,
-        31
-      ],
-      "style": "HIGH_TECH",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -70,
-        -0
-      ],
-      "style": "HIGH_TECH",
-      "width": 8
-    }
-  ],
-  "height": 144,
-  "hullId": "aBadIdea2_HyperHyperion",
-  "hullName": "Hyper Hyperion",
-  "hullSize": "DESTROYER",
-  "shieldCenter": [
-    0,
-    0
-  ],
-  "shieldRadius": 94,
-  "spriteName": "graphics/ships/aBadIdea2_HyperHyperion.png",
-  "style": "HIGH_TECH",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": -30,
-      "arc": 120,
       "id": "WS0009",
-      "locations": [
-        6,
-        -10
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "ENERGY"
-    },
-    {
-      "angle": 30,
+      "type": "ENERGY",
+      "mount": "TURRET",
       "arc": 120,
+      "angle": -30,
+      "locations": [6, -10]
+    },
+    {
       "id": "WS0010",
-      "locations": [
-        6,
-        10
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "ENERGY"
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [6, 10]
     },
     {
-      "angle": 0,
-      "arc": 5,
       "id": "WS0001",
-      "locations": [
-        37,
-        -13
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "MISSILE"
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [37, -13]
     },
     {
-      "angle": -0,
-      "arc": 5,
       "id": "WS0002",
-      "locations": [
-        37,
-        13
-      ],
-      "mount": "HARDPOINT",
       "size": "SMALL",
-      "type": "MISSILE"
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [37, 13]
     },
     {
-      "angle": -45,
-      "arc": 180,
       "id": "WS0007",
-      "locations": [
-        -34.5,
-        -20.5
-      ],
-      "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "ENERGY"
-    },
-    {
-      "angle": 45,
+      "type": "ENERGY",
+      "mount": "TURRET",
       "arc": 180,
+      "angle": -45,
+      "locations": [-34.5, -20.5]
+    },
+    {
       "id": "WS0008",
-      "locations": [
-        -34.5,
-        20.5
-      ],
-      "mount": "TURRET",
       "size": "MEDIUM",
-      "type": "ENERGY"
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [-34.5, 20.5]
     },
     {
-      "angle": 0,
-      "arc": 5,
       "id": "WS0003",
-      "locations": [
-        19,
-        -28
-      ],
-      "mount": "HARDPOINT",
       "size": "MEDIUM",
-      "type": "MISSILE"
-    },
-    {
-      "angle": -0,
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
       "arc": 5,
-      "id": "WS0004",
-      "locations": [
-        19,
-        28
-      ],
-      "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "MISSILE"
-    },
-    {
       "angle": 0,
-      "arc": 5,
-      "id": "WS0005",
-      "locations": [
-        -2,
-        -55
-      ],
-      "mount": "HARDPOINT",
-      "size": "LARGE",
-      "type": "ENERGY"
+      "locations": [19, -28]
     },
     {
-      "angle": -0,
-      "arc": 5,
-      "id": "WS0006",
-      "locations": [
-        -2,
-        55
-      ],
-      "mount": "HARDPOINT",
-      "size": "LARGE",
-      "type": "ENERGY"
-    },
-    {
-      "angle": 180,
-      "arc": 135,
-      "id": "WS0011",
-      "locations": [
-        -44,
-        -0
-      ],
-      "mount": "TURRET",
+      "id": "WS0004",
       "size": "MEDIUM",
-      "type": "ENERGY"
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [19, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-2, -55]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-2, 55]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 180,
+      "locations": [-44, -0]
     }
   ],
-  "width": 152
+  "engineSlots": [
+    {
+      "location": [-70, -8],
+      "length": 35,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, 8],
+      "length": 35,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65, -31],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-65, 31],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-70, -0],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    36.5, -7,
+    36.5, -17.5,
+    23, -17.5,
+    23, -35.5,
+    8.5, -35.5,
+    8.5, -69.5,
+    -36, -67,
+    -66, -33,
+    -63, -22.5,
+    -71, -18,
+    -71, 18,
+    -63, 22.5,
+    -66, 33,
+    -36, 67,
+    8.5, 69.5,
+    8.5, 35.5,
+    23, 35.5,
+    23, 17.5,
+    36.5, 17.5,
+    36.5, 7,
+    51, 7,
+    58, 0,
+    51, -7
+  ]
 }

@@ -1,181 +1,142 @@
 {
-  "bounds": [
-    59,
-    21.5,
-    5,
-    35,
-    -11.5,
-    52.5,
-    -28.5,
-    26,
-    -64.5,
-    17,
-    -64.5,
-    -17,
-    -28.5,
-    -26,
-    -11.5,
-    -52.5,
-    5,
-    -35,
-    59,
-    -21.5
-  ],
+  "hullName": "Aluben-the-destroyer",
+  "hullId": "aBadIdea2_aluben_the_destroyer",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/aluben/aBadIdea2_Aluben.png",
+  "style": "MIDLINE",
+  "height": 130,
+  "width": 104,
+  "center": [52, 65.5],
+  "collisionRadius": 121,
+  "shieldCenter": [19.5, -0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
   "builtInMods": [
     "civgrade"
   ],
   "builtInWeapons": {
     "WS0007": "aBadIdea2_aluben_repeater"
   },
-  "center": [
-    52,
-    65.5
-  ],
-  "collisionRadius": 121,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 15,
-      "length": 35.5,
-      "location": [
-        -63.5,
-        -0
-      ],
-      "style": "MIDLINE",
-      "width": 15
-    },
-    {
-      "angle": 180,
-      "contrailSize": 15,
-      "length": 35.5,
-      "location": [
-        -63.5,
-        10
-      ],
-      "style": "MIDLINE",
-      "width": 15
-    },
-    {
-      "angle": -180,
-      "contrailSize": 15,
-      "length": 35.5,
-      "location": [
-        -63.5,
-        -10
-      ],
-      "style": "MIDLINE",
-      "width": 15
-    }
-  ],
-  "height": 130,
-  "hullId": "aBadIdea2_aluben_the_destroyer",
-  "hullName": "Aluben-the-destroyer",
-  "hullSize": "DESTROYER",
-  "shieldCenter": [
-    19.5,
-    -0
-  ],
-  "shieldRadius": 98.5,
-  "spriteName": "graphics/ships/aluben/aBadIdea2_Aluben.png",
-  "style": "MIDLINE",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 180,
-      "arc": 180,
       "id": "WS 003",
-      "locations": [
-        -45.5,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-45.5, -0]
     },
     {
-      "angle": 45,
-      "arc": 180,
       "id": "WS0001",
-      "locations": [
-        -6.5,
-        38
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -45,
+      "type": "BALLISTIC",
+      "mount": "TURRET",
       "arc": 180,
+      "angle": 45,
+      "locations": [-6.5, 38]
+    },
+    {
       "id": "WS0002",
-      "locations": [
-        -6.5,
-        -38
-      ],
+      "size": "SMALL",
+      "type": "BALLISTIC",
       "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BALLISTIC"
+      "arc": 180,
+      "angle": -45,
+      "locations": [-6.5, -38]
     },
     {
-      "angle": 210,
-      "arc": 30,
       "id": "WS0003",
-      "locations": [
-        -44.5,
-        -22
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 210,
+      "locations": [-44.5, -22]
     },
     {
-      "angle": -210,
-      "arc": 30,
       "id": "WS0004",
-      "locations": [
-        -44.5,
-        22
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -210,
+      "locations": [-44.5, 22]
     },
     {
-      "angle": -55.5,
-      "arc": 30,
       "id": "WS0005",
-      "locations": [
-        22.5,
-        -35
-      ],
-      "mount": "HIDDEN",
       "size": "SMALL",
-      "type": "SYSTEM"
-    },
-    {
-      "angle": 55.5,
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
       "arc": 30,
-      "id": "WS0006",
-      "locations": [
-        22.5,
-        35
-      ],
-      "mount": "HIDDEN",
-      "size": "SMALL",
-      "type": "SYSTEM"
+      "angle": -55.5,
+      "locations": [22.5, -35]
     },
     {
-      "angle": 0,
-      "arc": 0,
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 55.5,
+      "locations": [22.5, 35]
+    },
+    {
       "id": "WS0007",
-      "locations": [
-        37.5,
-        -0
-      ],
-      "mount": "HARDPOINT",
       "size": "LARGE",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [37.5, -0]
     }
   ],
-  "width": 104
+  "engineSlots": [
+    {
+      "location": [-63.5, -0],
+      "length": 35.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63.5, 10],
+      "length": 35.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-63.5, -10],
+      "length": 35.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    50.5, 22,
+    22.5, 35,
+    5, 35,
+    -7.5, 51,
+    -16.5, 51,
+    -28, 22,
+    -40.5, 25.5,
+    -50.5, 19,
+    -64.5, 17,
+    -64.5, -17,
+    -50.5, -19,
+    -40.5, -25.5,
+    -28, -22,
+    -16.5, -51,
+    -7.5, -51,
+    5, -35,
+    22.5, -35,
+    50.5, -22,
+    58.5, -21,
+    58.5, 21
+  ]
 }

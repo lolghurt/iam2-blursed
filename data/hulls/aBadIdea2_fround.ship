@@ -1,0 +1,73 @@
+{
+  "hullName": "Frond",
+  "hullId": "aBadIdea2_fround",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_fround.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 31],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-8, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-17, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    60.5, -15.5,
+    -1, -14,
+    13.5, -21.5,
+    3.5, -29.5,
+    -29, -29,
+    -29, -16,
+    -23, -16,
+    -23, 16,
+    -29, 16,
+    -29, 29,
+    3.5, 29.5,
+    13.5, 21.5,
+    -1, 14,
+    37.5, 14.5,
+    33.5, 3.5,
+    60.5, 2.5
+  ]
+}

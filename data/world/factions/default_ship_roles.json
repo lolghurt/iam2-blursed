@@ -15,6 +15,10 @@
 		"aBadIdea2_pilum_frigate_Artillery":10,
 		
 		"aBadIdea2_hegdehog_PD":10,
+		
+		"aBadIdea2_steve_Standard":10,
+		
+		"aBadIdea2_houndmen_Standard":10,
 	},
 	#destroyers
 	"combatMedium":{
@@ -41,6 +45,8 @@
 		"aBadIdea2_pilum_destroyer_Artillery":10,
 		
 		"aBadIdea2_destlobster_Standard":10,
+		
+		"aBadIdea2_more_hound_Standard":10,
 	},
 	#cruisers
 	"combatLarge":{		
@@ -61,6 +67,10 @@
 		"aBadIdea2_rabbit_Standard":10,
 		
 		"aBadIdea2_apee_Standard":10,
+		
+		"aBadIdea2_sunfish_Standard":10,
+		
+		"aBadIdea2_conest_Standard":10,
 	},
 	#take a guess lmao
 	"combatCapital":{
@@ -86,6 +96,15 @@
 		"aBadIdea2_halfagon_Standard":10,
 		
 		"aBadIdea2_halfquest_Standard":10,
+		
+		"aBadIdea2_odyslaught_Standard":10,
+		
+		"aBadIdea2_sidequest_Standard":10,
+		
+		"aBadIdea2_oddwally_Standard":10,
+	},
+	"phaseSmall":{
+		"aBadIdea2_phound_Standard":10,
 	},
 	#phase cruisers and capitals
 	"phaseLarge":{
@@ -113,6 +132,8 @@
 	
 	"carrierSmall":{
 		"aBadIdea2_long_drover_Strike":10,
+		
+		"aBadIdea2_heround_Standard":10,
 	},
 	
 	"carrierLarge":{
@@ -123,6 +144,10 @@
 	"phaseCapital":{
 		"aBadIdea2_gremlin_battleship_Standard":10,
 	},
+	"freighterSmall":{
+		"hermes_Standard":1,
+		"aBadIdea2_fround_Standard":10,
+	},
 	
 	"freighterLarge":{
 		"aBadIdea2_atlas_as_fuck_Standard":10,
@@ -132,16 +157,24 @@
 		"aBadIdea2_buffalo_mk_iii_Standard":10,
 		
 		"aBadIdea2_atlas_crew_Standard":10,
+		
+		"aBadIdea2_h_Standard":10,
 	},
 	
 	"tankerLarge":{
 		"aBadIdea2_atlas_tanker_Standard":10,
+	},
+	"personnelSmall":{
+		"aBadIdea2_houndliner_Standard":10,
 	},
 	"personnelMedium":{
 		"aBadIdea2_supernebula_Standard":1,
 	},
 	"linerMedium":{
 		"aBadIdea2_supernebula_Standard":10,
+	},
+	"crig":{
+		"aBadIdea2_salvound_Standard":10,
 	},
 
 }

@@ -1,0 +1,83 @@
+{
+  "variantId": "aBadIdea2_oddwally_Standard",
+  "hullId": "aBadIdea2_oddwally",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 42,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "squall",
+        "WS0006": "squall"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "pilum",
+        "WS0010": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "autopulse",
+        "WS0003": "autopulse",
+        "WS0004": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "ionpulser",
+        "WS0008": "ionpulser",
+        "WS0011": "ionpulser",
+        "WS0012": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "lrpdlaser",
+        "WS0018": "lrpdlaser",
+        "WS0019": "lrpdlaser",
+        "WS0020": "lrpdlaser",
+        "WS0021": "lrpdlaser",
+        "WS0022": "lrpdlaser",
+        "WS0023": "lrpdlaser",
+        "WS0024": "lrpdlaser",
+        "WS0025": "lrpdlaser",
+        "WS0026": "lrpdlaser",
+        "WS0027": "lrpdlaser",
+        "WS0028": "lrpdlaser",
+        "WS0029": "lrpdlaser",
+        "WS0030": "lrpdlaser",
+        "WS0031": "lrpdlaser",
+        "WS0032": "lrpdlaser",
+        "WS0033": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "warthog_wing",
+    "warthog_wing",
+    "claw_wing",
+    "claw_wing"
+  ]
+}

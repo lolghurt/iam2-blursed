@@ -1,0 +1,71 @@
+{
+  "hullName": "Houndmen",
+  "hullId": "aBadIdea2_houndmen",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_houndmen.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 42],
+  "collisionRadius": 53,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 51.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-19, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [33, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, -22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, 22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    4.5, -28.5,
+    -40, -27,
+    -40, -17,
+    -34, -15,
+    -34, 15,
+    -40, 17,
+    -40, 27,
+    -3.5, 28,
+    23, 15.5,
+    25, 1,
+    35, 1,
+    45, -5,
+    32, -14,
+    24, -9.5
+  ]
+}

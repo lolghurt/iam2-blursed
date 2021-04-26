@@ -1,0 +1,91 @@
+{
+  "hullName": "Phound",
+  "hullId": "aBadIdea2_phound",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/phase/aBadIdea2_phound.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 31],
+  "collisionRadius": 66,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "delicate",
+    "phasefield",
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [12, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [12, 24]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 135,
+      "angle": -160,
+      "locations": [-8, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-17.5, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    53, -16,
+    18, -16,
+    16, -29,
+    -29, -29,
+    -29, -16,
+    -23, -15,
+    -23, 15,
+    -29, 16,
+    -29, 29,
+    16, 29,
+    7, 14.5,
+    32.5, 16.5,
+    36.5, 4,
+    53, 4
+  ]
+}

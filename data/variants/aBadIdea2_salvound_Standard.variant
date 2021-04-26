@@ -1,0 +1,25 @@
+{
+  "variantId": "aBadIdea2_salvound_Standard",
+  "hullId": "aBadIdea2_salvound",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "surveying_equipment",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

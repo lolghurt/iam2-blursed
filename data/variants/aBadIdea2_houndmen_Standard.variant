@@ -1,0 +1,25 @@
+{
+  "variantId": "aBadIdea2_houndmen_Standard",
+  "hullId": "aBadIdea2_houndmen",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliarythrusters",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

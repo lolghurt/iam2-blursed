@@ -1,280 +1,227 @@
 {
-  "bounds": [
-    176,
-    12.5,
-    160.5,
-    20.5,
-    191.5,
-    45.5,
-    147,
-    68.5,
-    -12.5,
-    67.5,
-    -157,
-    94,
-    -187,
-    86.5,
-    -195,
-    38.5,
-    -167,
-    23,
-    -167,
-    -23,
-    -195,
-    -38.5,
-    -187,
-    -86.5,
-    -157,
-    -94,
-    -12.5,
-    -67.5,
-    147,
-    -68.5,
-    191.5,
-    -45.5,
-    160.5,
-    -20.5,
-    176,
-    -12.5
-  ],
+  "hullName": "Hive Conquest",
+  "hullId": "aBadIdea2_hivecon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/aBadIdea2_hivecon.png",
+  "style": "MIDLINE",
+  "height": 393,
+  "width": 188,
+  "center": [94, 196.5],
+  "collisionRadius": 226.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 226,
+  "viewOffset": 0,
   "builtInMods": [
     "pointdefenseai"
   ],
   "builtInWeapons": {
     "WS0001": "devastator"
   },
-  "center": [
-    94,
-    196.5
-  ],
-  "collisionRadius": 226.5,
-  "engineSlots": [
-    {
-      "angle": -180,
-      "contrailSize": 12,
-      "length": 60,
-      "location": [
-        -178.5,
-        -22
-      ],
-      "style": "MIDLINE",
-      "width": 12
-    },
-    {
-      "angle": 180,
-      "contrailSize": 12,
-      "length": 60,
-      "location": [
-        -178.5,
-        22
-      ],
-      "style": "MIDLINE",
-      "width": 12
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -196.5,
-        -39.5
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -196.5,
-        39.5
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -195.5,
-        -50.5
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -195.5,
-        50.5
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    },
-    {
-      "angle": 180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -194.5,
-        -61
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    },
-    {
-      "angle": -180,
-      "contrailSize": 8,
-      "length": 40,
-      "location": [
-        -194.5,
-        61
-      ],
-      "style": "MIDLINE",
-      "width": 8
-    }
-  ],
-  "height": 393,
-  "hullId": "aBadIdea2_hivecon",
-  "hullName": "Hive Conquest",
-  "hullSize": "CAPITAL_SHIP",
-  "shieldCenter": [
-    0,
-    0
-  ],
-  "shieldRadius": 226,
-  "spriteName": "graphics/ships/aBadIdea2_hivecon.png",
-  "style": "MIDLINE",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 360,
       "id": "WS0001",
-      "locations": [
-        -125.5,
-        -1
-      ],
+      "size": "LARGE",
+      "type": "BUILT_IN",
       "mount": "TURRET",
-      "size": "LARGE",
-      "type": "BUILT_IN"
+      "arc": 360,
+      "angle": 0,
+      "locations": [-125.5, -1]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 1",
-      "locations": [
-        24.5,
-        -0,
-        65.5,
-        -0
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        24.5, -0,
+        65.5, -0
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 2",
-      "locations": [
-        123,
-        -0.5,
-        177.5,
-        -0
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        123, -0.5,
+        177.5, -0
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 3",
-      "locations": [
-        1,
-        -46.5,
-        32.5,
-        -43
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        1, -46.5,
+        32.5, -43
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 4",
-      "locations": [
-        64,
-        -46.5,
-        98,
-        -46.5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        64, -46.5,
+        98, -46.5
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 5",
-      "locations": [
-        129.5,
-        -43,
-        161,
-        -46.5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        129.5, -43,
+        161, -46.5
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 6",
-      "locations": [
-        1,
-        46.5,
-        32.5,
-        43
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        1, 46.5,
+        32.5, 43
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 7",
-      "locations": [
-        64,
-        46.5,
-        98,
-        44.5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        64, 46.5,
+        98, 44.5
+      ]
     },
     {
-      "angle": 0,
-      "arc": 360,
       "id": "LB 8",
-      "locations": [
-        129.5,
-        41,
-        161,
-        44.5
-      ],
-      "mount": "HIDDEN",
       "size": "LARGE",
-      "type": "LAUNCH_BAY"
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        129.5, 41,
+        161, 44.5
+      ]
     }
   ],
-  "width": 188
+  "engineSlots": [
+    {
+      "location": [-178.5, -22],
+      "length": 60,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-178.5, 22],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, -39.5],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-196.5, 39.5],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-195.5, -50.5],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-195.5, 50.5],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, -61],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-194.5, 61],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    180.5, 10,
+    158.5, 19.5,
+    160.5, 33,
+    186.5, 38,
+    194.5, 53,
+    133.5, 72,
+    121, 62.5,
+    107, 79.5,
+    74, 62,
+    -14.5, 68,
+    -114.5, 87,
+    -187.5, 84,
+    -194.5, 34,
+    -179.5, 31,
+    -179.5, 14,
+    -167.5, 11,
+    -167.5, -11,
+    -179.5, -14,
+    -179.5, -31,
+    -194.5, -34,
+    -187.5, -84,
+    -114.5, -87,
+    -14.5, -68,
+    74, -62,
+    107, -79.5,
+    121, -62.5,
+    133.5, -72,
+    194.5, -53,
+    186.5, -38,
+    160.5, -33,
+    158.5, -19.5,
+    180.5, -10
+  ]
 }

@@ -1,0 +1,70 @@
+{
+  "hullName": "Houndliner",
+  "hullId": "aBadIdea2_houndliner",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_houndliner.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 45],
+  "collisionRadius": 57,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 56.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -160,
+      "locations": [-22, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 180,
+      "locations": [-31, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-44, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    38, -18,
+    -0.5, -20,
+    -11, -29,
+    -43, -29,
+    -43, -16,
+    -36, -9,
+    -36, 9,
+    -43, 16,
+    -43, 29,
+    -11, 29,
+    -0.5, 20,
+    38, 18,
+    54, -0
+  ]
+}

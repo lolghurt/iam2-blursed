@@ -1,0 +1,27 @@
+{
+  "variantId": "aBadIdea2_houndliner_Standard",
+  "hullId": "aBadIdea2_houndliner",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "additional_berthing",
+    "auxiliarythrusters",
+    "frontshield",
+    "adaptiveshields"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

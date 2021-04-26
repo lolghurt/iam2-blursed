@@ -1,0 +1,58 @@
+{
+  "variantId": "aBadIdea2_conest_Standard",
+  "hullId": "aBadIdea2_conest",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "cyclone",
+        "WS0003": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0008": "sabotpod",
+        "WS0009": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyac",
+        "WS0005": "heavyac",
+        "WS0006": "heavyac",
+        "WS0007": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser",
+        "WS0012": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser",
+        "WS0015": "pdlaser",
+        "WS0016": "pdlaser",
+        "WS0017": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

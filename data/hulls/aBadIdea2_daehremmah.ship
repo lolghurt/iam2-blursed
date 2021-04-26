@@ -1,212 +1,174 @@
 {
-  "bounds": [
-    53,
-    39.5,
-    15.5,
-    51,
-    -9,
-    14,
-    -40,
-    17,
-    -62.5,
-    50,
-    -79.5,
-    44,
-    -79.5,
-    -44,
-    -62.5,
-    -50,
-    -40,
-    -17,
-    -9,
-    -14,
-    15.5,
-    -51,
-    53,
-    -39.5
-  ],
-  "center": [
-    54,
-    86
-  ],
-  "collisionRadius": 109,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 12,
-      "length": 60,
-      "location": [
-        -84,
-        -38
-      ],
-      "style": "MIDLINE",
-      "width": 12
-    },
-    {
-      "angle": -180,
-      "contrailSize": 12,
-      "length": 60,
-      "location": [
-        -84,
-        38
-      ],
-      "style": "MIDLINE",
-      "width": 12
-    },
-    {
-      "angle": -180,
-      "contrailSize": 10,
-      "length": 52,
-      "location": [
-        -83,
-        27
-      ],
-      "style": "MIDLINE",
-      "width": 10
-    },
-    {
-      "angle": 180,
-      "contrailSize": 10,
-      "length": 52,
-      "location": [
-        -83,
-        -27
-      ],
-      "style": "MIDLINE",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 14,
-      "length": 45,
-      "location": [
-        -82,
-        15
-      ],
-      "style": "MIDLINE",
-      "width": 14
-    },
-    {
-      "angle": 180,
-      "contrailSize": 14,
-      "length": 45,
-      "location": [
-        -82,
-        -15
-      ],
-      "style": "MIDLINE",
-      "width": 14
-    }
-  ],
-  "height": 147,
-  "hullId": "aBadIdea2_daehremmah",
   "hullName": "Daehremmah",
+  "hullId": "aBadIdea2_daehremmah",
   "hullSize": "DESTROYER",
-  "shieldCenter": [
-    -6,
-    -0
-  ],
-  "shieldRadius": 101,
   "spriteName": "graphics/ships/aBadIdea2_daehremmah.png",
   "style": "MIDLINE",
+  "height": 147,
+  "width": 108,
+  "center": [54, 86],
+  "collisionRadius": 109,
+  "shieldCenter": [-6, -0],
+  "shieldRadius": 101,
   "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0001",
-      "locations": [
-        52,
-        31
-      ],
-      "mount": "HARDPOINT",
       "size": "MEDIUM",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -0,
-      "arc": 0,
-      "id": "WS0002",
-      "locations": [
-        52,
-        -31
-      ],
+      "type": "BALLISTIC",
       "mount": "HARDPOINT",
-      "size": "MEDIUM",
-      "type": "BALLISTIC"
-    },
-    {
-      "angle": -0,
       "arc": 0,
-      "id": "WS0003",
-      "locations": [
-        56,
-        -11
-      ],
-      "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "MISSILE"
-    },
-    {
       "angle": 0,
-      "arc": 0,
-      "id": "WS0004",
-      "locations": [
-        56,
-        11
-      ],
+      "locations": [52, 31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
       "mount": "HARDPOINT",
-      "size": "SMALL",
-      "type": "MISSILE"
+      "arc": 0,
+      "angle": -0,
+      "locations": [52, -31]
     },
     {
-      "angle": -45,
-      "arc": 215,
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [56, -11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [56, 11]
+    },
+    {
       "id": "WS0005",
-      "locations": [
-        19,
-        -39
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "HYBRID"
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -45,
+      "locations": [19, -39]
     },
     {
-      "angle": 45,
-      "arc": 215,
       "id": "WS0006",
-      "locations": [
-        19,
-        39
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "HYBRID"
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 45,
+      "locations": [19, 39]
     },
     {
-      "angle": -80,
-      "arc": 215,
       "id": "WS0007",
-      "locations": [
-        -54,
-        -16
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "HYBRID"
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": -80,
+      "locations": [-54, -16]
     },
     {
-      "angle": 80,
-      "arc": 215,
       "id": "WS0008",
-      "locations": [
-        -54,
-        16
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "HYBRID"
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 215,
+      "angle": 80,
+      "locations": [-54, 16]
     }
   ],
-  "width": 108
+  "engineSlots": [
+    {
+      "location": [-84, -38],
+      "length": 60,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-84, 38],
+      "length": 60,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-83, 27],
+      "length": 52,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-83, -27],
+      "length": 52,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, 15],
+      "length": 45,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-82, -15],
+      "length": 45,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    53, 39.5,
+    29.5, 43,
+    25.5, 52,
+    13, 51.5,
+    -9.5, 29.5,
+    -8, 14,
+    -40, 16,
+    -49.5, 29.5,
+    -48.5, 49.5,
+    -69, 51,
+    -83, 43,
+    -81, 9,
+    -75, 8,
+    -75, -8,
+    -81, -9,
+    -83, -43,
+    -69, -51,
+    -48.5, -49.5,
+    -49.5, -29.5,
+    -40, -16,
+    -8, -14,
+    -9.5, -29.5,
+    13, -51.5,
+    25.5, -52,
+    29.5, -43,
+    53, -39.5,
+    53, -18,
+    55, -18,
+    55, -4,
+    36, -3,
+    36, 3,
+    55, 4,
+    55, 18,
+    53, 18
+  ]
 }

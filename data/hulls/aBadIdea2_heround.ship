@@ -1,0 +1,69 @@
+{
+  "hullName": "Heround",
+  "hullId": "aBadIdea2_heround",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/aBadIdea2_heround.png",
+  "style": "LOW_TECH",
+  "height": 107,
+  "width": 62,
+  "center": [31, 31],
+  "collisionRadius": 79,
+  "shieldCenter": [19, -0],
+  "shieldRadius": 59.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": -165,
+      "locations": [-8, 4]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        35, -6,
+        55.5, -6
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 22],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -22],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -29, 29,
+    -29, 17,
+    -21, 7.5,
+    -21, -7.5,
+    -29, -17,
+    -29, -29,
+    40.5, -27.5,
+    70.5, -12.5,
+    65, 4,
+    34, 14,
+    10, 13.5,
+    12, 25
+  ]
+}
