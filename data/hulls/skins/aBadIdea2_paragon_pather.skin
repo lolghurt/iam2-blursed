@@ -34,12 +34,6 @@
 		"WS 006":{
             "type": "BALLISTIC"
 		},
-		"WS 007":{
-            "type": "COMPOSITE"
-		},
-		"WS 008":{
-            "type": "COMPOSITE"
-		},
 		"WS 009":{
             "type": "BALLISTIC"
 		},

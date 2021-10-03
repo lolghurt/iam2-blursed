@@ -1,0 +1,93 @@
+{
+  "hullName": "Aki",
+  "hullId": "aBadIdea2_aki",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/aBadIdea2_aki.png",
+  "style": "LOW_TECH",
+  "height": 166,
+  "width": 110,
+  "center": [55, 83],
+  "collisionRadius": 102,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 101.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "shielded_holds"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [24, -30]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [24, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -135,
+      "locations": [-44, -36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 135,
+      "locations": [-44, 36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-83, 35.5],
+      "length": 35,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-83, -35.5],
+      "length": 35,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    81, -17,
+    61, -35,
+    33, -35,
+    16.5, -50.5,
+    -23, -54.5,
+    -76.5, -49.5,
+    -83, -35.5,
+    -80.5, -20.5,
+    -75.5, -14.5,
+    -75.5, 14.5,
+    -80.5, 20.5,
+    -83, 35.5,
+    -76.5, 49.5,
+    -23, 54.5,
+    16.5, 50.5,
+    33, 35,
+    61, 35,
+    81, 17
+  ]
+}

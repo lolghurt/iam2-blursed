@@ -1,0 +1,66 @@
+{
+  "variantId": "aBadIdea2_loaf_Standard",
+  "hullId": "aBadIdea2_loaf",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "multineedler",
+        "WS0019": "multineedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "squall",
+        "WS0004": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "heavymauler",
+        "WS0013": "heavymauler",
+        "WS0015": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "dualflak",
+        "WS0014": "dualflak",
+        "WS0016": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0005": "lightdualmg",
+        "WS0006": "lightdualmg",
+        "WS0007": "lightdualmg",
+        "WS0008": "lightdualmg",
+        "WS0009": "lightdualmg",
+        "WS0010": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

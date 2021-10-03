@@ -1,0 +1,170 @@
+{
+  "hullName": "Fujiwara",
+  "hullId": "aBadIdea2_fujiwara",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/aBadIdea2_fujiwara.png",
+  "style": "MIDLINE",
+  "height": 100,
+  "width": 208,
+  "center": [104, 50],
+  "collisionRadius": 110.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 110,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 180,
+      "locations": [-30, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -75,
+      "locations": [-20, -36]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 75,
+      "locations": [-20, 36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [0, 56]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [0, -56]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-11, -95]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-11, 95]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50, -8],
+      "length": 40,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-50, 8],
+      "length": 40,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-49, -18.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-49, 18.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -30],
+      "length": 35,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 30],
+      "length": 35,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    25.5, -5,
+    44, -5,
+    47, -10.5,
+    44, -13.5,
+    -1, -28,
+    -7, -51,
+    -1, -56,
+    -9, -62,
+    -16.5, -87,
+    -10.5, -98.5,
+    -30, -100,
+    -38, -80.5,
+    -37, -38.5,
+    -46, -34,
+    -49, -3,
+    -42, -0,
+    -49, 3,
+    -46, 34,
+    -37, 38.5,
+    -38, 80.5,
+    -30, 100,
+    -10.5, 98.5,
+    -16.5, 87,
+    -9, 62,
+    -1, 56,
+    -7, 51,
+    -1, 28,
+    44, 13.5,
+    44, 5,
+    25.5, 5
+  ]
+}

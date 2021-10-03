@@ -1,0 +1,29 @@
+{
+  "variantId": "aBadIdea2_aki_Standard",
+  "hullId": "aBadIdea2_aki",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds",
+    "heavyarmor",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg",
+        "WS0004": "lightdualmg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

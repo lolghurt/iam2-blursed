@@ -1,0 +1,70 @@
+{
+  "variantId": "aBadIdea2_onononslaughtghtght_Standard",
+  "hullId": "aBadIdea2_onononslaughtghtght",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "shield_shunt",
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tpc",
+        "WS0002": "tpc",
+        "WS0003": "tpc",
+        "WS0004": "tpc",
+        "WS0005": "tpc",
+        "WS0006": "tpc"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0028": "sabotpod",
+        "WS0029": "sabotpod",
+        "WS0030": "sabotpod",
+        "WS0031": "sabotpod",
+        "WS0032": "sabotpod",
+        "WS0033": "sabotpod",
+        "WS0034": "sabotpod",
+        "WS0035": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "heavyneedler",
+        "WS0026": "heavyneedler",
+        "WS0027": "heavyneedler",
+        "WS0036": "heavyneedler",
+        "WS0037": "heavyneedler",
+        "WS0038": "heavyneedler",
+        "WS0039": "heavyneedler",
+        "WS0040": "heavyneedler",
+        "WS0041": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "dualflak",
+        "WS0025": "dualflak",
+        "WS0049": "dualflak",
+        "WS0050": "dualflak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
