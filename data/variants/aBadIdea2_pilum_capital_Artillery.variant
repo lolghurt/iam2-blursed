@@ -17,8 +17,8 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0013": "aBadIdea2_pilum_maximum",
-        "WS0014": "aBadIdea2_pilum_maximum"
+        "WS0013": "pilum_large",
+        "WS0014": "pilum_large"
       }
     },
     {

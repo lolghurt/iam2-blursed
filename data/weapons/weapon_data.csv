@@ -10,5 +10,4 @@ RATS repeater,aBadIdea2_RATS_repeater,0,,3000,900,,750,,200,5,16,,,,HIGH_EXPLOSI
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hound Intensity Laser,aBadIdea2_hound_laser,1,,4500,1000,500,,,0,5,20,,,,HIGH_EXPLOSIVE,,500,0.1,0.1,,,,,,,2400,,,,,,,,"beam20, LR, hightech_bp, meme",,Andradan,,Anti Armor,,,,,,,,,,24
 Pilum (single),aBadIdea2_pilum_single,0,,300,10000,,500,,25,10,2,10,0.03,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,125,100,80,50,,,"DO_NOT_AIM, CONSERVE_1","utility13, missile7, missile_bp, meme",,,,Long Range Support,Very Slow,Very Poor,,,,,,,,12.5
-Pilum LRM Barrage,aBadIdea2_pilum_maximum,1,,2100,10000,,500,,25,10,17,70,0.3,,HIGH_EXPLOSIVE,0,,0,15,7,0.4,0,0,0,0,,125,100,80,50,,,"DO_NOT_AIM, CONSERVE_1","utility13, missile7, missile_bp, meme",,,,Long Range Support,Very Slow,Very Poor,,,,,,,,12.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
